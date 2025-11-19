@@ -27,17 +27,27 @@ const whatsappUrl = `https://wa.me/${whatsappNumber.replace('+', '')}`
 </script>
 
 <template>
-  <nav class="sticky top-0 z-50 flex items-center justify-between px-4 py-2 bg-white dark:bg-gray-900 shadow-sm">
+  <nav class="sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-navy-600 dark:bg-navy-800 shadow-lg">
     <!-- Brand/Logo -->
     <div class="flex items-center space-x-2">
-      <NuxtLink to="/" class="text-2xl font-bold">
+      <NuxtLink to="/" class="text-2xl font-bold text-white hover:text-teal-200 transition-colors duration-200">
         BSA
       </NuxtLink>
     </div>
 
     <!-- Centered Navigation Menu -->
     <div class="flex-1 flex justify-center">
-      <UNavigationMenu :items="navigationItems" />
+      <div class="flex space-x-8">
+        <NuxtLink 
+          v-for="item in navigationItems" 
+          :key="item.label"
+          :to="item.to"
+          class="text-white hover:text-teal-200 transition-colors duration-200 font-medium px-3 py-2 rounded-md hover:bg-navy-700 flex items-center gap-2"
+        >
+          <UIcon :name="item.icon" class="w-4 h-4" />
+          {{ item.label }}
+        </NuxtLink>
+      </div>
     </div>
 
     <!-- WhatsApp Contact Button -->
@@ -46,8 +56,9 @@ const whatsappUrl = `https://wa.me/${whatsappNumber.replace('+', '')}`
         :to="whatsappUrl"
         target="_blank"
         icon="mdi-whatsapp"
-        color="green"
-        class="bg-green-500 hover:bg-green-600 text-white rounded-full"
+        color="success"
+        variant="solid"
+        class="rounded-full"
       >
         Hubungi Kami
       </UButton>

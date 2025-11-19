@@ -10,7 +10,14 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxthub/core",
     "@nuxt/icon",
+    "@nuxt/fonts",
   ],
+  fonts: {
+    families: [
+      { name: 'Manrope', provider: 'google' },
+      { name: 'Rubik', provider: 'google' }
+    ]
+  },
   vite: {
     plugins: [tailwindcss()],
   },
