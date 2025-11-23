@@ -1,6 +1,7 @@
 <template>
   <Navbar />
   <NuxtPage />
+  <Footer />
   
   <!-- WhatsApp Floating Button -->
   <a 
