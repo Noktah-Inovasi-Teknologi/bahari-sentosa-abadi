@@ -22,8 +22,8 @@ const navigationItems = ref([
   }
 ])
 
-const whatsappNumber = '+62123456789' // Replace with actual WhatsApp number
-const whatsappUrl = `https://wa.me/${whatsappNumber.replace('+', '')}`
+const whatsappNumber = '+62 813-3031-0676'
+const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[+\-\s]/g, '')}?text=Halo,%20saya%20tertarik%20dengan%20produk%20Anda`
 </script>
 
 <template>
