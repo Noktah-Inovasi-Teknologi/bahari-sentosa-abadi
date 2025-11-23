@@ -8,6 +8,16 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left side - Text content -->
           <div class="space-y-6">
+            <!-- Company Logo -->
+            <div class="flex items-center space-x-4 mb-6">
+              <img src="/bsa-logo.avif" alt="Bahari Sentosa Abadi Logo" class="h-16 w-16 rounded-full object-cover" />
+              <div class="h-12 w-px bg-gray-300 dark:bg-gray-600"></div>
+              <div>
+                <h2 class="text-2xl font-bold text-navy-600 dark:text-navy-400 font-heading">Bahari Sentosa Abadi</h2>
+                <p class="text-sm text-gray-600 dark:text-gray-400 font-body">Distributor Garam Terpercaya</p>
+              </div>
+            </div>
+            
             <h1
               class="text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-600 dark:text-navy-400 font-heading leading-tight"
             >
@@ -1292,9 +1302,12 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <!-- Company Info -->
           <div class="lg:col-span-1">
-            <h3 class="text-xl font-bold text-white font-heading mb-4">
-              Bahari Sentosa Abadi
-            </h3>
+            <div class="flex items-center space-x-3 mb-6">
+              <img src="/bsa-logo.avif" alt="Bahari Sentosa Abadi Logo" class="h-10 w-10 rounded-full object-cover" />
+              <h3 class="text-xl font-bold text-white font-heading">
+                Bahari Sentosa Abadi
+              </h3>
+            </div>
             <p class="text-gray-300 font-body leading-relaxed mb-6">
               Distributor resmi garam berkualitas tinggi dari PT. Unichem Candi
               Indonesia. Melayani kebutuhan industri dan konsumsi sejak 2019

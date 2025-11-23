@@ -29,9 +29,10 @@ const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[+\-\s]/g, '')}?tex
 <template>
   <nav class="sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-navy-600 dark:bg-navy-800 shadow-lg">
     <!-- Brand/Logo -->
-    <div class="flex items-center space-x-2">
-      <NuxtLink to="/" class="text-2xl font-bold text-white hover:text-teal-200 transition-colors duration-200">
-        BSA
+    <div class="flex items-center space-x-3">
+      <NuxtLink to="/" class="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-200">
+        <img src="/bsa-logo.avif" alt="Bahari Sentosa Abadi Logo" class="h-8 w-8 rounded-full object-cover" />
+        <span class="text-xl font-bold text-white">BSA</span>
       </NuxtLink>
     </div>
 
