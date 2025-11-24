@@ -1,13 +1,94 @@
+<script setup>
+// SEO Meta Tags
+useHead({
+  title: 'Tentang Kami - PT Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia',
+  meta: [
+    {
+      name: 'description',
+      content: 'PT Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, dan FSSC 22000.'
+    },
+    {
+      name: 'keywords',
+      content: 'bahari sentosa abadi, distributor garam indonesia, garam industri, garam konsumsi, PT unichem candi indonesia, distributor garam terpercaya, sejarah perusahaan, visi misi, garam berkualitas tinggi'
+    },
+    {
+      name: 'author',
+      content: 'PT Bahari Sentosa Abadi'
+    },
+    {
+      name: 'robots',
+      content: 'index, follow'
+    },
+    // Open Graph Tags
+    {
+      property: 'og:title',
+      content: 'Tentang Kami - PT Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia'
+    },
+    {
+      property: 'og:description',
+      content: 'PT Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, dan FSSC 22000.'
+    },
+    {
+      property: 'og:type',
+      content: 'website'
+    },
+    {
+      property: 'og:url',
+      content: 'https://baharisentosaabadi.com/tentangkami'
+    },
+    {
+      property: 'og:image',
+      content: 'https://baharisentosaabadi.com/bsa-2.avif'
+    },
+    {
+      property: 'og:site_name',
+      content: 'PT Bahari Sentosa Abadi'
+    },
+    {
+      property: 'og:locale',
+      content: 'id_ID'
+    },
+    // Twitter Card Tags
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image'
+    },
+    {
+      name: 'twitter:title',
+      content: 'Tentang Kami - PT Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia'
+    },
+    {
+      name: 'twitter:description',
+      content: 'PT Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi.'
+    },
+    {
+      name: 'twitter:image',
+      content: 'https://baharisentosaabadi.com/bsa-2.avif'
+    },
+    {
+      name: 'twitter:site',
+      content: '@BahariSentosaAbadi'
+    }
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://baharisentosaabadi.com/tentangkami'
+    }
+  ]
+})
+</script>
+
 <template>
   <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
     <!-- Hero Section -->
     <section
-      class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-50 to-teal-50 dark:from-navy-900 dark:to-gray-800"
+      class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-50 to-secondary-50 dark:from-primary-900 dark:to-gray-800"
     >
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-12">
           <h1
-            class="text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-600 dark:text-navy-400 font-heading leading-tight mb-6"
+            class="text-4xl lg:text-5xl xl:text-6xl font-bold text-primary-600 dark:text-primary-400 font-heading leading-tight mb-6"
           >
             Tentang Bahari Sentosa Abadi
           </h1>
@@ -26,7 +107,7 @@
               <img src="/bsa-logo.avif" alt="Bahari Sentosa Abadi Logo" class="h-20 w-20 rounded-full object-cover" />
               <div class="h-16 w-px bg-gray-300 dark:bg-gray-600"></div>
               <div>
-                <h2 class="text-3xl font-bold text-navy-600 dark:text-navy-400 font-heading">Bahari Sentosa Abadi</h2>
+                <h2 class="text-3xl font-bold text-primary-600 dark:text-primary-400 font-heading">Bahari Sentosa Abadi</h2>
                 <p class="text-lg text-gray-600 dark:text-gray-400 font-body">Established 2019</p>
               </div>
             </div>
@@ -40,7 +121,7 @@
             </p>
 
             <div class="space-y-4">
-              <h3 class="text-xl font-bold text-navy-600 dark:text-navy-400 font-heading">
+              <h3 class="text-xl font-bold text-primary-600 dark:text-primary-400 font-heading">
                 Legalitas Perusahaan
               </h3>
               <div class="flex flex-wrap gap-3">
@@ -82,7 +163,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-600 dark:text-navy-400 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 font-heading mb-4"
           >
             Visi & Misi Perusahaan
           </h2>
@@ -96,11 +177,11 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <!-- Visi -->
           <div
-            class="bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-2xl p-8 border border-navy-200 dark:border-navy-700 hover:shadow-xl transition-all duration-300"
+            class="bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl p-8 border border-primary-200 dark:border-primary-700 hover:shadow-xl transition-all duration-300"
           >
             <div class="flex items-center space-x-4 mb-6">
               <div
-                class="w-16 h-16 bg-navy-600 rounded-full flex items-center justify-center"
+                class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center"
               >
                 <svg
                   class="w-8 h-8 text-white"
@@ -123,7 +204,7 @@
                 </svg>
               </div>
               <h3
-                class="text-2xl font-bold text-navy-700 dark:text-navy-300 font-heading"
+                class="text-2xl font-bold text-primary-700 dark:text-primary-300 font-heading"
               >
                 Visi Kami
               </h3>
@@ -140,11 +221,11 @@
 
           <!-- Misi -->
           <div
-            class="bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-2xl p-8 border border-teal-200 dark:border-teal-700 hover:shadow-xl transition-all duration-300"
+            class="bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-2xl p-8 border border-secondary-200 dark:border-secondary-700 hover:shadow-xl transition-all duration-300"
           >
             <div class="flex items-center space-x-4 mb-6">
               <div
-                class="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center"
+                class="w-16 h-16 bg-secondary-600 rounded-full flex items-center justify-center"
               >
                 <svg
                   class="w-8 h-8 text-white"
@@ -161,32 +242,32 @@
                 </svg>
               </div>
               <h3
-                class="text-2xl font-bold text-teal-700 dark:text-teal-300 font-heading"
+                class="text-2xl font-bold text-secondary-700 dark:text-secondary-300 font-heading"
               >
                 Misi Kami
               </h3>
             </div>
             <div class="space-y-4">
               <div class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-teal-500 rounded-full mt-2 shrink-0"></div>
+                <div class="w-2 h-2 bg-secondary-500 rounded-full mt-2 shrink-0"></div>
                 <p class="text-gray-700 dark:text-gray-300 font-body">
                   Menyediakan produk garam berkualitas tinggi dengan sertifikasi internasional
                 </p>
               </div>
               <div class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-teal-500 rounded-full mt-2 shrink-0"></div>
+                <div class="w-2 h-2 bg-secondary-500 rounded-full mt-2 shrink-0"></div>
                 <p class="text-gray-700 dark:text-gray-300 font-body">
                   Memberikan layanan distribusi yang handal dan tepat waktu ke seluruh Indonesia
                 </p>
               </div>
               <div class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-teal-500 rounded-full mt-2 shrink-0"></div>
+                <div class="w-2 h-2 bg-secondary-500 rounded-full mt-2 shrink-0"></div>
                 <p class="text-gray-700 dark:text-gray-300 font-body">
                   Mengembangkan kemitraan jangka panjang yang saling menguntungkan
                 </p>
               </div>
               <div class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-teal-500 rounded-full mt-2 shrink-0"></div>
+                <div class="w-2 h-2 bg-secondary-500 rounded-full mt-2 shrink-0"></div>
                 <p class="text-gray-700 dark:text-gray-300 font-body">
                   Berinovasi dalam teknologi dan proses untuk efisiensi optimal
                 </p>
@@ -199,12 +280,12 @@
 
     <!-- Company History & Milestones -->
     <section
-      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-50 to-teal-50 dark:from-gray-900 dark:to-gray-800"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-50 to-secondary-50 dark:from-gray-900 dark:to-gray-800"
     >
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
           >
             Perjalanan Perusahaan
           </h2>
@@ -218,7 +299,7 @@
         <!-- Timeline -->
         <div class="relative">
           <!-- Timeline Line -->
-          <div class="absolute left-1/2 transform -translate-x-0.5 w-1 h-full bg-linear-to-b from-navy-400 to-teal-400 rounded-full"></div>
+          <div class="absolute left-1/2 transform -translate-x-0.5 w-1 h-full bg-linear-to-b from-primary-400 to-secondary-400 rounded-full"></div>
 
           <!-- Timeline Items -->
           <div class="space-y-12">
@@ -226,7 +307,7 @@
             <div class="relative flex items-center">
               <div class="flex-1 pr-8 text-right">
                 <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-                  <h3 class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-2">
+                  <h3 class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-2">
                     2019 - Pendirian Perusahaan
                   </h3>
                   <p class="text-gray-700 dark:text-gray-300 font-body">
@@ -237,10 +318,10 @@
               </div>
               
               <!-- Timeline Dot -->
-              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-navy-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
+              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
               
               <div class="flex-1 pl-8">
-                <div class="w-16 h-16 bg-linear-to-br from-navy-500 to-navy-600 rounded-full flex items-center justify-center">
+                <div class="w-16 h-16 bg-linear-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center">
                   <span class="text-white font-bold text-lg">2019</span>
                 </div>
               </div>
@@ -249,17 +330,17 @@
             <!-- 2020-2021 - Growth -->
             <div class="relative flex items-center">
               <div class="flex-1 pr-8">
-                <div class="w-16 h-16 bg-linear-to-br from-teal-500 to-teal-600 rounded-full flex items-center justify-center ml-auto">
+                <div class="w-16 h-16 bg-linear-to-br from-secondary-500 to-secondary-600 rounded-full flex items-center justify-center ml-auto">
                   <span class="text-white font-bold text-sm">20-21</span>
                 </div>
               </div>
               
               <!-- Timeline Dot -->
-              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-teal-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
+              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-secondary-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
               
               <div class="flex-1 pl-8">
                 <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-                  <h3 class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-2">
+                  <h3 class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-2">
                     2020-2021 - Ekspansi Pasar
                   </h3>
                   <p class="text-gray-700 dark:text-gray-300 font-body">
@@ -274,7 +355,7 @@
             <div class="relative flex items-center">
               <div class="flex-1 pr-8 text-right">
                 <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-                  <h3 class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-2">
+                  <h3 class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-2">
                     2022-2023 - Sertifikasi Kualitas
                   </h3>
                   <p class="text-gray-700 dark:text-gray-300 font-body">
@@ -285,10 +366,10 @@
               </div>
               
               <!-- Timeline Dot -->
-              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-navy-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
+              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
               
               <div class="flex-1 pl-8">
-                <div class="w-16 h-16 bg-linear-to-br from-navy-500 to-navy-600 rounded-full flex items-center justify-center">
+                <div class="w-16 h-16 bg-linear-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center">
                   <span class="text-white font-bold text-sm">22-23</span>
                 </div>
               </div>
@@ -297,17 +378,17 @@
             <!-- 2024 - Present -->
             <div class="relative flex items-center">
               <div class="flex-1 pr-8">
-                <div class="w-16 h-16 bg-linear-to-br from-teal-500 to-teal-600 rounded-full flex items-center justify-center ml-auto">
+                <div class="w-16 h-16 bg-linear-to-br from-secondary-500 to-secondary-600 rounded-full flex items-center justify-center ml-auto">
                   <span class="text-white font-bold text-lg">2024</span>
                 </div>
               </div>
               
               <!-- Timeline Dot -->
-              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-teal-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
+              <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-secondary-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
               
               <div class="flex-1 pl-8">
                 <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-                  <h3 class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-2">
+                  <h3 class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-2">
                     2024 - Leadership Position
                   </h3>
                   <p class="text-gray-700 dark:text-gray-300 font-body">
@@ -327,7 +408,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-600 dark:text-navy-400 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 font-heading mb-4"
           >
             Nilai-Nilai Perusahaan
           </h2>
@@ -341,10 +422,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Value 1: Quality -->
           <div
-            class="group bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-navy-200 dark:border-navy-700"
+            class="group bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-primary-200 dark:border-primary-700"
           >
             <div
-              class="w-16 h-16 bg-navy-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -361,7 +442,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+              class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
             >
               Kualitas (Quality)
             </h3>
@@ -375,10 +456,10 @@
 
           <!-- Value 2: Integrity -->
           <div
-            class="group bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-teal-200 dark:border-teal-700"
+            class="group bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-secondary-200 dark:border-secondary-700"
           >
             <div
-              class="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 bg-secondary-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -395,7 +476,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-4"
+              class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-4"
             >
               Integritas (Integrity)
             </h3>
@@ -409,10 +490,10 @@
 
           <!-- Value 3: Innovation -->
           <div
-            class="group bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-navy-200 dark:border-navy-700"
+            class="group bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-primary-200 dark:border-primary-700"
           >
             <div
-              class="w-16 h-16 bg-navy-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -429,7 +510,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+              class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
             >
               Inovasi (Innovation)
             </h3>
@@ -443,10 +524,10 @@
 
           <!-- Value 4: Customer Focus -->
           <div
-            class="group bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-teal-200 dark:border-teal-700"
+            class="group bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-secondary-200 dark:border-secondary-700"
           >
             <div
-              class="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 bg-secondary-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -463,7 +544,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-4"
+              class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-4"
             >
               Fokus Pelanggan
             </h3>
@@ -477,10 +558,10 @@
 
           <!-- Value 5: Reliability -->
           <div
-            class="group bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-navy-200 dark:border-navy-700"
+            class="group bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-primary-200 dark:border-primary-700"
           >
             <div
-              class="w-16 h-16 bg-navy-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -497,7 +578,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+              class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
             >
               Keandalan (Reliability)
             </h3>
@@ -511,10 +592,10 @@
 
           <!-- Value 6: Sustainability -->
           <div
-            class="group bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-teal-200 dark:border-teal-700"
+            class="group bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-secondary-200 dark:border-secondary-700"
           >
             <div
-              class="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 bg-secondary-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -531,7 +612,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-4"
+              class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-4"
             >
               Keberlanjutan
             </h3>
@@ -549,7 +630,7 @@
 
     <!-- Call to Action -->
     <section
-      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-navy-600 to-teal-600 dark:from-navy-800 dark:to-teal-800"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-primary-600 to-secondary-600 dark:from-primary-800 dark:to-secondary-800"
     >
       <div class="max-w-4xl mx-auto text-center">
         <h2
@@ -558,7 +639,7 @@
           Bergabunglah dengan Mitra Terpercaya
         </h2>
         <p
-          class="text-xl text-navy-100 dark:text-navy-200 font-body leading-relaxed mb-8"
+          class="text-xl text-primary-100 dark:text-primary-200 font-body leading-relaxed mb-8"
         >
           Jadilah bagian dari jaringan distribusi garam terdepan di Indonesia. 
           Mari wujudkan kesuksesan bersama dengan kualitas, integritas, dan inovasi.
@@ -584,7 +665,7 @@
             Hubungi Kami Sekarang
           </UButton>
 
-          <div class="flex items-center space-x-2 text-navy-100 dark:text-navy-200">
+          <div class="flex items-center space-x-2 text-primary-100 dark:text-primary-200">
             <svg
               class="w-5 h-5"
               fill="none"

@@ -1,8 +1,26 @@
 <template>
+<div>
+<Head>
+<Title>PT Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia | Salt Manufacturer</Title>
+<Meta name="description" content="PT Bahari Sentosa Abadi adalah distributor resmi garam berkualitas tinggi dari PT Unichem Candi Indonesia. Melayani garam industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, FSSC 22000. Pengiriman ke seluruh Indonesia." />
+<Meta name="keywords" content="garam industri, garam konsumsi, distributor garam, PT Bahari Sentosa Abadi, refined salt, washing salt, garam halal, garam bersertifikat, supplier garam Indonesia" />
+<Meta property="og:title" content="PT Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia" />
+<Meta property="og:description" content="Distributor resmi garam berkualitas tinggi dengan sertifikasi internasional. Melayani garam industri dan konsumsi ke seluruh Indonesia." />
+<Meta property="og:image" content="https://baharisentosaabadi.com/bsa-logo.avif" />
+<Meta property="og:url" content="https://baharisentosaabadi.com/" />
+<Meta property="og:type" content="website" />
+<Meta name="twitter:card" content="summary_large_image" />
+<Meta name="twitter:title" content="PT Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia" />
+<Meta name="twitter:description" content="Distributor resmi garam berkualitas tinggi dengan sertifikasi internasional. Melayani garam industri dan konsumsi ke seluruh Indonesia." />
+<Meta name="twitter:image" content="https://baharisentosaabadi.com/bsa-logo.avif" />
+<Meta name="robots" content="index, follow" />
+<Meta name="viewport" content="width=device-width, initial-scale=1" />
+<Link rel="canonical" href="https://baharisentosaabadi.com/" />
+</Head>
   <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
     <!-- Company Section -->
     <section
-      class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-50 to-teal-50 dark:from-navy-900 dark:to-gray-800"
+      class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-50 to-secondary-50 dark:from-primary-900 dark:to-gray-800"
     >
       <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -13,13 +31,13 @@
               <img src="/bsa-logo.avif" alt="Bahari Sentosa Abadi Logo" class="h-16 w-16 rounded-full object-cover" />
               <div class="h-12 w-px bg-gray-300 dark:bg-gray-600"></div>
               <div>
-                <h2 class="text-2xl font-bold text-navy-600 dark:text-navy-400 font-heading">Bahari Sentosa Abadi</h2>
+                <h2 class="text-2xl font-bold text-primary-600 dark:text-primary-400 font-heading">Bahari Sentosa Abadi</h2>
                 <p class="text-sm text-gray-600 dark:text-gray-400 font-body">Distributor Garam Terpercaya</p>
               </div>
             </div>
             
             <h1
-              class="text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-600 dark:text-navy-400 font-heading leading-tight"
+              class="text-4xl lg:text-5xl xl:text-6xl font-bold text-primary-600 dark:text-primary-400 font-heading leading-tight"
             >
               Pengiriman Garam Berkualitas ke Seluruh Indonesia
             </h1>
@@ -35,7 +53,7 @@
 
             <div class="space-y-4">
               <p
-                class="text-lg text-navy-600 dark:text-navy-400 font-body font-medium"
+                class="text-lg text-primary-600 dark:text-primary-400 font-body font-medium"
               >
                 Produk-produk yang kami tawarkan telah bersertifikat:
               </p>
@@ -112,7 +130,7 @@
             class="bg-white dark:bg-gray-800 rounded-2xl p-8 lg:p-12 shadow-lg border border-gray-200 dark:border-gray-700"
           >
             <h2
-              class="text-2xl lg:text-3xl font-bold text-center text-navy-600 dark:text-navy-400 font-heading mb-12"
+              class="text-2xl lg:text-3xl font-bold text-center text-primary-600 dark:text-primary-400 font-heading mb-12"
             >
               Track Record Kepercayaan Klien
             </h2>
@@ -126,21 +144,21 @@
               >
                 <div class="relative">
                   <div
-                    class="absolute inset-0 bg-navy-100 dark:bg-navy-900/20 rounded-full blur-2xl"
+                    class="absolute inset-0 bg-primary-100 dark:bg-primary-900/20 rounded-full blur-2xl"
                   ></div>
                   <div class="relative space-y-2">
                     <div class="flex items-center justify-center gap-2">
                       <span
-                        class="text-5xl lg:text-6xl font-bold text-navy-600 dark:text-navy-400 font-heading"
+                        class="text-5xl lg:text-6xl font-bold text-primary-600 dark:text-primary-400 font-heading"
                         >70</span
                       >
                       <span
-                        class="text-5xl lg:text-6xl font-bold text-teal-500 dark:text-teal-400 font-heading"
+                        class="text-5xl lg:text-6xl font-bold text-secondary-500 dark:text-secondary-400 font-heading"
                         >+</span
                       >
                     </div>
                     <p
-                      class="text-xl text-navy-700 dark:text-navy-300 font-body font-medium"
+                      class="text-xl text-primary-700 dark:text-primary-300 font-body font-medium"
                     >
                       Klien Terpercaya
                     </p>
@@ -160,21 +178,21 @@
               >
                 <div class="relative">
                   <div
-                    class="absolute inset-0 bg-navy-100 dark:bg-navy-900/20 rounded-full blur-2xl"
+                    class="absolute inset-0 bg-primary-100 dark:bg-primary-900/20 rounded-full blur-2xl"
                   ></div>
                   <div class="relative space-y-2">
                     <div class="flex items-center justify-center gap-2">
                       <span
-                        class="text-4xl lg:text-5xl font-bold text-navy-600 dark:text-navy-400 font-heading"
+                        class="text-4xl lg:text-5xl font-bold text-primary-600 dark:text-primary-400 font-heading"
                         >50.000</span
                       >
                       <span
-                        class="text-4xl lg:text-5xl font-bold text-teal-500 dark:text-teal-400 font-heading"
+                        class="text-4xl lg:text-5xl font-bold text-secondary-500 dark:text-secondary-400 font-heading"
                         >+</span
                       >
                     </div>
                     <p
-                      class="text-xl text-navy-700 dark:text-navy-300 font-body font-medium"
+                      class="text-xl text-primary-700 dark:text-primary-300 font-body font-medium"
                     >
                       Ton Garam Terdistribusi
                     </p>
@@ -198,7 +216,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-600 dark:text-navy-400 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 font-heading mb-4"
           >
             Keunggulan Kami
           </h2>
@@ -213,10 +231,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Keunggulan 1 -->
           <div
-            class="group relative bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-navy-200 dark:border-navy-700"
+            class="group relative bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-primary-200 dark:border-primary-700"
           >
             <div
-              class="absolute top-4 right-4 w-12 h-12 bg-navy-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              class="absolute top-4 right-4 w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -233,7 +251,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+              class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
             >
               Kualitas Terjamin
             </h3>
@@ -248,10 +266,10 @@
 
           <!-- Keunggulan 2 -->
           <div
-            class="group relative bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-teal-200 dark:border-teal-700"
+            class="group relative bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-secondary-200 dark:border-secondary-700"
           >
             <div
-              class="absolute top-4 right-4 w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              class="absolute top-4 right-4 w-12 h-12 bg-secondary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -268,7 +286,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-4"
+              class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-4"
             >
               Pengiriman Tepat Waktu
             </h3>
@@ -283,10 +301,10 @@
 
           <!-- Keunggulan 3 -->
           <div
-            class="group relative bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-navy-200 dark:border-navy-700"
+            class="group relative bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-primary-200 dark:border-primary-700"
           >
             <div
-              class="absolute top-4 right-4 w-12 h-12 bg-navy-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              class="absolute top-4 right-4 w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -303,7 +321,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+              class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
             >
               Tim Profesional
             </h3>
@@ -318,10 +336,10 @@
 
           <!-- Keunggulan 4 -->
           <div
-            class="group relative bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-teal-200 dark:border-teal-700"
+            class="group relative bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-secondary-200 dark:border-secondary-700"
           >
             <div
-              class="absolute top-4 right-4 w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              class="absolute top-4 right-4 w-12 h-12 bg-secondary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -338,7 +356,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-4"
+              class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-4"
             >
               Harga Kompetitif
             </h3>
@@ -353,10 +371,10 @@
 
           <!-- Keunggulan 5 -->
           <div
-            class="group relative bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-navy-200 dark:border-navy-700"
+            class="group relative bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-primary-200 dark:border-primary-700"
           >
             <div
-              class="absolute top-4 right-4 w-12 h-12 bg-navy-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              class="absolute top-4 right-4 w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -373,7 +391,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+              class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
             >
               Dokumentasi Lengkap
             </h3>
@@ -388,10 +406,10 @@
 
           <!-- Keunggulan 6 -->
           <div
-            class="group relative bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-teal-200 dark:border-teal-700"
+            class="group relative bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-secondary-200 dark:border-secondary-700"
           >
             <div
-              class="absolute top-4 right-4 w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              class="absolute top-4 right-4 w-12 h-12 bg-secondary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -408,7 +426,7 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-4"
+              class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-4"
             >
               Support 24/7
             </h3>
@@ -425,12 +443,12 @@
 
     <!-- Manfaat Section -->
     <section
-      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-50 to-teal-50 dark:from-gray-900 dark:to-gray-800"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-50 to-secondary-50 dark:from-gray-900 dark:to-gray-800"
     >
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
           >
             Manfaat Bermitra dengan Kami
           </h2>
@@ -448,13 +466,13 @@
             <!-- Benefit 1 -->
             <div class="flex items-start space-x-4 group">
               <div
-                class="shrink-0 w-12 h-12 bg-navy-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+                class="shrink-0 w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
               >
                 <span class="text-white font-bold text-lg">1</span>
               </div>
               <div class="flex-1">
                 <h3
-                  class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-2"
+                  class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-2"
                 >
                   Efisiensi Operasional
                 </h3>
@@ -471,13 +489,13 @@
             <!-- Benefit 2 -->
             <div class="flex items-start space-x-4 group">
               <div
-                class="shrink-0 w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+                class="shrink-0 w-12 h-12 bg-secondary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
               >
                 <span class="text-white font-bold text-lg">2</span>
               </div>
               <div class="flex-1">
                 <h3
-                  class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-2"
+                  class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-2"
                 >
                   Penghematan Biaya
                 </h3>
@@ -494,13 +512,13 @@
             <!-- Benefit 3 -->
             <div class="flex items-start space-x-4 group">
               <div
-                class="shrink-0 w-12 h-12 bg-navy-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+                class="shrink-0 w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
               >
                 <span class="text-white font-bold text-lg">3</span>
               </div>
               <div class="flex-1">
                 <h3
-                  class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-2"
+                  class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-2"
                 >
                   Keamanan Stok
                 </h3>
@@ -517,13 +535,13 @@
             <!-- Benefit 4 -->
             <div class="flex items-start space-x-4 group">
               <div
-                class="shrink-0 w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+                class="shrink-0 w-12 h-12 bg-secondary-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
               >
                 <span class="text-white font-bold text-lg">4</span>
               </div>
               <div class="flex-1">
                 <h3
-                  class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-2"
+                  class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-2"
                 >
                   Compliance & Legal
                 </h3>
@@ -546,7 +564,7 @@
               <!-- Partnership Benefits Showcase -->
               <div class="text-center space-y-8">
                 <div
-                  class="w-24 h-24 bg-linear-to-br from-navy-600 to-teal-600 rounded-full mx-auto flex items-center justify-center"
+                  class="w-24 h-24 bg-linear-to-br from-primary-600 to-secondary-600 rounded-full mx-auto flex items-center justify-center"
                 >
                   <svg
                     class="w-12 h-12 text-white"
@@ -564,7 +582,7 @@
                 </div>
 
                 <h3
-                  class="text-2xl font-bold text-navy-700 dark:text-navy-300 font-heading"
+                  class="text-2xl font-bold text-primary-700 dark:text-primary-300 font-heading"
                 >
                   Tingkatkan Efisiensi Bisnis
                 </h3>
@@ -573,7 +591,7 @@
                 <div class="grid grid-cols-2 gap-6">
                   <div class="text-center">
                     <div
-                      class="text-3xl font-bold text-navy-700 dark:text-navy-300 font-heading"
+                      class="text-3xl font-bold text-primary-700 dark:text-primary-300 font-heading"
                     >
                       95%
                     </div>
@@ -585,7 +603,7 @@
                   </div>
                   <div class="text-center">
                     <div
-                      class="text-3xl font-bold text-teal-600 dark:text-teal-400 font-heading"
+                      class="text-3xl font-bold text-secondary-600 dark:text-secondary-400 font-heading"
                     >
                       24h
                     </div>
@@ -597,7 +615,7 @@
                   </div>
                   <div class="text-center">
                     <div
-                      class="text-3xl font-bold text-navy-700 dark:text-navy-300 font-heading"
+                      class="text-3xl font-bold text-primary-700 dark:text-primary-300 font-heading"
                     >
                       99%
                     </div>
@@ -609,7 +627,7 @@
                   </div>
                   <div class="text-center">
                     <div
-                      class="text-3xl font-bold text-teal-600 dark:text-teal-400 font-heading"
+                      class="text-3xl font-bold text-secondary-600 dark:text-secondary-400 font-heading"
                     >
                       5+
                     </div>
@@ -638,10 +656,10 @@
 
             <!-- Decorative elements -->
             <div
-              class="absolute -top-4 -right-4 w-32 h-32 bg-linear-to-br from-navy-200 to-teal-200 dark:from-navy-800 dark:to-teal-800 rounded-full opacity-20 blur-2xl"
+              class="absolute -top-4 -right-4 w-32 h-32 bg-linear-to-br from-primary-200 to-secondary-200 dark:from-primary-800 dark:to-secondary-800 rounded-full opacity-20 blur-2xl"
             ></div>
             <div
-              class="absolute -bottom-4 -left-4 w-24 h-24 bg-linear-to-br from-teal-200 to-navy-200 dark:from-teal-800 dark:to-navy-800 rounded-full opacity-20 blur-xl"
+              class="absolute -bottom-4 -left-4 w-24 h-24 bg-linear-to-br from-secondary-200 to-primary-200 dark:from-secondary-800 dark:to-primary-800 rounded-full opacity-20 blur-xl"
             ></div>
           </div>
         </div>
@@ -653,7 +671,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
           >
             Produk Unggulan Kami
           </h2>
@@ -668,7 +686,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <!-- Product 1 - Refine Salt -->
           <div
-            class="group bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-2xl overflow-hidden border border-navy-200 dark:border-navy-700 hover:shadow-2xl transition-all duration-500"
+            class="group bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl overflow-hidden border border-primary-200 dark:border-primary-700 hover:shadow-2xl transition-all duration-500"
           >
             <!-- Product Image -->
             <div class="relative overflow-hidden">
@@ -679,14 +697,14 @@
                 loading="lazy"
               />
               <div
-                class="absolute inset-0 bg-linear-to-t from-navy-900/60 to-transparent"
+                class="absolute inset-0 bg-linear-to-t from-primary-900/60 to-transparent"
               ></div>
               <div class="absolute bottom-4 left-4 right-4">
                 <div
                   class="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 backdrop-blur-sm bg-opacity-90 dark:bg-opacity-90"
                 >
                   <span
-                    class="text-navy-700 dark:text-navy-300 font-semibold text-sm"
+                    class="text-primary-700 dark:text-primary-300 font-semibold text-sm"
                     >Premium Quality</span
                   >
                 </div>
@@ -696,7 +714,7 @@
             <!-- Product Content -->
             <div class="p-8">
               <h3
-                class="text-2xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+                class="text-2xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
               >
                 Refined Salt (Garam Murni)
               </h3>
@@ -714,7 +732,7 @@
               <!-- Keunggulan List -->
               <div class="space-y-3 mb-6">
                 <h4
-                  class="text-lg font-semibold text-navy-600 dark:text-navy-400 font-heading mb-3"
+                  class="text-lg font-semibold text-primary-600 dark:text-primary-400 font-heading mb-3"
                 >
                   Keunggulan:
                 </h4>
@@ -722,7 +740,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-navy-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-primary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Kemurnian NaCl ≥99.5%</span
@@ -730,7 +748,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-navy-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-primary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Kristal murni putih bersih</span
@@ -738,7 +756,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-navy-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-primary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Bebas kontaminan logam berat</span
@@ -746,7 +764,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-navy-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-primary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Kualitas farmasi & food grade</span
@@ -754,7 +772,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-navy-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-primary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Larut cepat dalam air</span
@@ -762,7 +780,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-navy-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-primary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >KIO3 yodium > 30 ppm</span
@@ -791,7 +809,7 @@
 
           <!-- Product 2 - Washing Salt -->
           <div
-            class="group bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-2xl overflow-hidden border border-teal-200 dark:border-teal-700 hover:shadow-2xl transition-all duration-500"
+            class="group bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-2xl overflow-hidden border border-secondary-200 dark:border-secondary-700 hover:shadow-2xl transition-all duration-500"
           >
             <!-- Product Image -->
             <div class="relative overflow-hidden">
@@ -802,14 +820,14 @@
                 loading="lazy"
               />
               <div
-                class="absolute inset-0 bg-linear-to-t from-teal-900/60 to-transparent"
+                class="absolute inset-0 bg-linear-to-t from-secondary-900/60 to-transparent"
               ></div>
               <div class="absolute bottom-4 left-4 right-4">
                 <div
                   class="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 backdrop-blur-sm bg-opacity-90 dark:bg-opacity-90"
                 >
                   <span
-                    class="text-teal-700 dark:text-teal-300 font-semibold text-sm"
+                    class="text-secondary-700 dark:text-secondary-300 font-semibold text-sm"
                     >Industrial Grade</span
                   >
                 </div>
@@ -819,7 +837,7 @@
             <!-- Product Content -->
             <div class="p-8">
               <h3
-                class="text-2xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-4"
+                class="text-2xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-4"
               >
                 Washing Salt (Garam Cuci)
               </h3>
@@ -836,7 +854,7 @@
               <!-- Keunggulan List -->
               <div class="space-y-3 mb-6">
                 <h4
-                  class="text-lg font-semibold text-teal-600 dark:text-teal-400 font-heading mb-3"
+                  class="text-lg font-semibold text-secondary-600 dark:text-secondary-400 font-heading mb-3"
                 >
                   Keunggulan:
                 </h4>
@@ -844,7 +862,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-teal-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-secondary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Kontrol viskositas deterjen</span
@@ -852,7 +870,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-teal-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-secondary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Stabilisasi surfaktan</span
@@ -860,7 +878,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-teal-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-secondary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Dissolusi cepat & seragam</span
@@ -868,7 +886,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-teal-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-secondary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Mengurangi korosi logam</span
@@ -876,7 +894,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-teal-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-secondary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Ramah lingkungan</span
@@ -884,7 +902,7 @@
                   </div>
                   <div class="flex items-center space-x-3">
                     <div
-                      class="w-2 h-2 bg-teal-500 rounded-full shrink-0"
+                      class="w-2 h-2 bg-secondary-500 rounded-full shrink-0"
                     ></div>
                     <span class="text-gray-700 dark:text-gray-300 font-body"
                       >Cost-effective solution</span
@@ -915,10 +933,10 @@
         <!-- CTA Section -->
         <div class="text-center mt-16">
           <div
-            class="bg-linear-to-r from-navy-50 to-teal-50 dark:from-navy-900/20 dark:to-teal-900/20 rounded-2xl p-8 lg:p-12 border border-gray-200 dark:border-gray-700"
+            class="bg-linear-to-r from-primary-50 to-secondary-50 dark:from-primary-900/20 dark:to-secondary-900/20 rounded-2xl p-8 lg:p-12 border border-gray-200 dark:border-gray-700"
           >
             <h3
-              class="text-2xl lg:text-3xl font-bold text-navy-800 dark:text-navy-200 font-heading mb-4"
+              class="text-2xl lg:text-3xl font-bold text-primary-800 dark:text-primary-200 font-heading mb-4"
             >
               Jelajahi Katalog Produk Lengkap
             </h3>
@@ -982,12 +1000,12 @@
 
     <!-- Hubungi Kami Section -->
     <section
-      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-teal-50 to-navy-50 dark:from-gray-900 dark:to-gray-800"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-secondary-50 to-primary-50 dark:from-gray-900 dark:to-gray-800"
     >
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
           >
             Hubungi Kami
           </h2>
@@ -1009,7 +1027,7 @@
               <div class="flex items-start space-x-6">
                 <div class="shrink-0">
                   <div
-                    class="w-16 h-16 bg-linear-to-br from-teal-500 to-teal-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+                    class="w-16 h-16 bg-linear-to-br from-secondary-500 to-secondary-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
                   >
                     <svg
                       class="w-8 h-8 text-white"
@@ -1025,7 +1043,7 @@
 
                 <div class="flex-1">
                   <h3
-                    class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-2"
+                    class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-2"
                   >
                     WhatsApp Chat
                   </h3>
@@ -1035,18 +1053,21 @@
                   </p>
 
                   <div class="flex items-center space-x-3 mb-4">
-                    <span
-                      class="text-2xl font-bold text-teal-600 dark:text-teal-400 font-heading"
+                    <a
+                      href="https://wa.me/6281330310676?text=Halo%20Bahari%20Sentosa%20Abadi,%20saya%20ingin%20menghubungi%20Anda"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-2xl font-bold text-secondary-600 dark:text-secondary-400 font-heading hover:text-secondary-700 dark:hover:text-secondary-300 transition-colors duration-300"
                     >
                       +62 813-3031-0676
-                    </span>
+                    </a>
                   </div>
 
                   <a
                     href="https://wa.me/6281330310676?text=Halo%20Bahari%20Sentosa%20Abadi,%20saya%20ingin%20bertanya%20tentang%20produk%20garam%20Anda"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="inline-flex items-center px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-lg transition-colors duration-300 transform hover:scale-105"
+                    class="inline-flex items-center px-6 py-3 bg-secondary-600 hover:bg-secondary-700 text-white font-semibold rounded-lg transition-colors duration-300 transform hover:scale-105"
                   >
                     <svg
                       class="w-5 h-5 mr-2"
@@ -1070,7 +1091,7 @@
               <div class="flex items-start space-x-6">
                 <div class="shrink-0">
                   <div
-                    class="w-16 h-16 bg-linear-to-br from-navy-500 to-navy-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+                    class="w-16 h-16 bg-linear-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
                   >
                     <svg
                       class="w-8 h-8 text-white"
@@ -1090,7 +1111,7 @@
 
                 <div class="flex-1">
                   <h3
-                    class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-2"
+                    class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-2"
                   >
                     Email Bisnis
                   </h3>
@@ -1100,16 +1121,17 @@
                   </p>
 
                   <div class="flex items-center space-x-3 mb-4">
-                    <span
-                      class="text-lg font-semibold text-navy-600 dark:text-navy-400 font-heading"
+                    <a
+                      href="mailto:baharisentosaa@gmail.com?subject=Inquiry%20Produk%20Garam%20Bahari%20Sentosa%20Abadi&body=Yth.%20Tim%20Bahari%20Sentosa%20Abadi,%0A%0ASaya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20produk%20garam%20Anda.%20Mohon%20informasi%20mengenai:%0A%0A1.%20Spesifikasi%20produk%0A2.%20Harga%20dan%20MOQ%0A3.%20Area%20pengiriman%0A%0ATerima%20kasih."
+                      class="text-lg font-semibold text-primary-600 dark:text-primary-400 font-heading hover:text-primary-700 dark:hover:text-primary-300 transition-colors duration-300"
                     >
                       baharisentosaa@gmail.com
-                    </span>
+                    </a>
                   </div>
 
                   <a
                     href="mailto:baharisentosaa@gmail.com?subject=Inquiry%20Produk%20Garam%20Bahari%20Sentosa%20Abadi&body=Yth.%20Tim%20Bahari%20Sentosa%20Abadi,%0A%0ASaya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20produk%20garam%20Anda.%20Mohon%20informasi%20mengenai:%0A%0A1.%20Spesifikasi%20produk%0A2.%20Harga%20dan%20MOQ%0A3.%20Area%20pengiriman%0A%0ATerima%20kasih."
-                    class="inline-flex items-center px-6 py-3 bg-navy-600 hover:bg-navy-700 text-white font-semibold rounded-lg transition-colors duration-300 transform hover:scale-105"
+                    class="inline-flex items-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors duration-300 transform hover:scale-105"
                   >
                     <svg
                       class="w-5 h-5 mr-2"
@@ -1132,11 +1154,11 @@
 
             <!-- Quick Info -->
             <div
-              class="bg-linear-to-r from-navy-100 to-teal-100 dark:from-navy-900/20 dark:to-teal-900/20 rounded-xl p-6 border border-gray-200 dark:border-gray-700"
+              class="bg-linear-to-r from-primary-100 to-secondary-100 dark:from-primary-900/20 dark:to-secondary-900/20 rounded-xl p-6 border border-gray-200 dark:border-gray-700"
             >
               <div class="flex items-center space-x-4">
                 <div
-                  class="w-12 h-12 bg-linear-to-br from-navy-500 to-teal-500 rounded-lg flex items-center justify-center"
+                  class="w-12 h-12 bg-linear-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center"
                 >
                   <svg
                     class="w-6 h-6 text-white"
@@ -1176,7 +1198,7 @@
                 loading="lazy"
               />
               <div
-                class="absolute inset-0 bg-linear-to-t from-navy-900/40 via-transparent to-transparent"
+                class="absolute inset-0 bg-linear-to-t from-primary-900/40 via-transparent to-transparent"
               ></div>
 
               <!-- Overlay Content -->
@@ -1185,7 +1207,7 @@
                   class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl p-6"
                 >
                   <h3
-                    class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-2"
+                    class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-2"
                   >
                     Tim Profesional Siap Membantu
                   </h3>
@@ -1199,10 +1221,10 @@
 
             <!-- Decorative elements -->
             <div
-              class="absolute -top-4 -right-4 w-24 h-24 bg-linear-to-br from-teal-200 to-navy-200 dark:from-teal-800 dark:to-navy-800 rounded-full opacity-20 blur-xl"
+              class="absolute -top-4 -right-4 w-24 h-24 bg-linear-to-br from-secondary-200 to-primary-200 dark:from-secondary-800 dark:to-primary-800 rounded-full opacity-20 blur-xl"
             ></div>
             <div
-              class="absolute -bottom-4 -left-4 w-32 h-32 bg-linear-to-br from-navy-200 to-teal-200 dark:from-navy-800 dark:to-teal-800 rounded-full opacity-20 blur-2xl"
+              class="absolute -bottom-4 -left-4 w-32 h-32 bg-linear-to-br from-primary-200 to-secondary-200 dark:from-primary-800 dark:to-secondary-800 rounded-full opacity-20 blur-2xl"
             ></div>
           </div>
         </div>
@@ -1211,7 +1233,7 @@
         <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="text-center">
             <div
-              class="w-16 h-16 bg-linear-to-br from-navy-500 to-teal-500 rounded-full mx-auto flex items-center justify-center mb-4"
+              class="w-16 h-16 bg-linear-to-br from-primary-500 to-secondary-500 rounded-full mx-auto flex items-center justify-center mb-4"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -1239,7 +1261,7 @@
 
           <div class="text-center">
             <div
-              class="w-16 h-16 bg-linear-to-br from-teal-500 to-navy-500 rounded-full mx-auto flex items-center justify-center mb-4"
+              class="w-16 h-16 bg-linear-to-br from-secondary-500 to-primary-500 rounded-full mx-auto flex items-center justify-center mb-4"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -1267,7 +1289,7 @@
 
           <div class="text-center">
             <div
-              class="w-16 h-16 bg-linear-to-br from-navy-500 to-teal-500 rounded-full mx-auto flex items-center justify-center mb-4"
+              class="w-16 h-16 bg-linear-to-br from-primary-500 to-secondary-500 rounded-full mx-auto flex items-center justify-center mb-4"
             >
               <svg
                 class="w-8 h-8 text-white"
@@ -1297,4 +1319,5 @@
     </section>
 
   </div>
+</div>
 </template>

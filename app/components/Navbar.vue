@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+const route = useRoute()
+
 const navigationItems = ref([
   {
     label: 'Visi & Misi',
@@ -24,13 +26,29 @@ const navigationItems = ref([
 
 const whatsappNumber = '+62 813-3031-0676'
 const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[+\-\s]/g, '')}?text=Halo,%20saya%20tertarik%20dengan%20produk%20Anda`
+
+// Function to check if a route is active
+const isActive = (path: string) => {
+  if (path === '/') {
+    return route.path === '/'
+  }
+  return route.path.startsWith(path)
+}
 </script>
 
 <template>
-  <nav class="sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-navy-600 dark:bg-navy-800 shadow-lg">
+  <nav class="sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-primary-600 dark:bg-primary-800 shadow-lg">
     <!-- Brand/Logo -->
     <div class="flex items-center space-x-3">
-      <NuxtLink to="/" class="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-200">
+      <NuxtLink 
+        to="/" 
+        :class="[
+          'flex items-center space-x-3 transition-opacity duration-200 px-2 py-1 rounded-md',
+          isActive('/') 
+            ? 'opacity-100 bg-primary-700' 
+            : 'hover:opacity-80'
+        ]"
+      >
         <img src="/bsa-logo.avif" alt="Bahari Sentosa Abadi Logo" class="h-8 w-8 rounded-full object-cover" />
         <span class="text-xl font-bold text-white">BSA</span>
       </NuxtLink>
@@ -43,7 +61,12 @@ const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[+\-\s]/g, '')}?tex
           v-for="item in navigationItems" 
           :key="item.label"
           :to="item.to"
-          class="text-white hover:text-teal-200 transition-colors duration-200 font-medium px-3 py-2 rounded-md hover:bg-navy-700 flex items-center gap-2"
+          :class="[
+            'transition-colors duration-200 font-medium px-3 py-2 rounded-md flex items-center gap-2',
+            isActive(item.to) 
+              ? 'text-secondary-200 bg-primary-700 border border-secondary-300' 
+              : 'text-white hover:text-secondary-200 hover:bg-primary-700'
+          ]"
         >
           <UIcon :name="item.icon" class="w-4 h-4" />
           {{ item.label }}
@@ -57,7 +80,7 @@ const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[+\-\s]/g, '')}?tex
         :to="whatsappUrl"
         target="_blank"
         icon="mdi-whatsapp"
-        color="success"
+        color="secondary"
         variant="solid"
         class="rounded-full"
       >

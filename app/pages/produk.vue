@@ -2,11 +2,11 @@
   <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
     <!-- Hero Section -->
     <section
-      class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-50 to-teal-50 dark:from-navy-900 dark:to-gray-800"
+      class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-50 to-secondary-50 dark:from-primary-900 dark:to-gray-800"
     >
       <div class="max-w-7xl mx-auto text-center">
         <h1
-          class="text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-600 dark:text-navy-400 font-heading leading-tight mb-6"
+          class="text-4xl lg:text-5xl xl:text-6xl font-bold text-primary-600 dark:text-primary-400 font-heading leading-tight mb-6"
         >
           Katalog Produk Garam
         </h1>
@@ -19,33 +19,33 @@
         <!-- Product Categories Overview -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-            <div class="w-12 h-12 bg-navy-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <div class="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center mx-auto mb-4">
               <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v6l-3 3-3-3V5z" />
               </svg>
             </div>
-            <h3 class="text-lg font-bold text-navy-700 dark:text-navy-300 font-heading mb-2">Garam Konsumsi</h3>
+            <h3 class="text-lg font-bold text-primary-700 dark:text-primary-300 font-heading mb-2">Garam Konsumsi</h3>
             <p class="text-gray-600 dark:text-gray-400 font-body text-sm">Untuk kebutuhan rumah tangga dan kuliner</p>
           </div>
 
           <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-            <div class="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <div class="w-12 h-12 bg-secondary-600 rounded-lg flex items-center justify-center mx-auto mb-4">
               <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
               </svg>
             </div>
-            <h3 class="text-lg font-bold text-teal-700 dark:text-teal-300 font-heading mb-2">Garam Industri</h3>
+            <h3 class="text-lg font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-2">Garam Industri</h3>
             <p class="text-gray-600 dark:text-gray-400 font-body text-sm">Untuk manufaktur dan proses industri</p>
           </div>
 
           <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-            <div class="w-12 h-12 bg-navy-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <div class="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center mx-auto mb-4">
               <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>
             </div>
-            <h3 class="text-lg font-bold text-navy-700 dark:text-navy-300 font-heading mb-2">Pharmaceutical Grade</h3>
+            <h3 class="text-lg font-bold text-primary-700 dark:text-primary-300 font-heading mb-2">Pharmaceutical Grade</h3>
             <p class="text-gray-600 dark:text-gray-400 font-body text-sm">Untuk farmasi dan medis</p>
           </div>
         </div>
@@ -57,7 +57,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-600 dark:text-navy-400 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 font-heading mb-4"
           >
             Produk Unggulan Kami
           </h2>
@@ -70,7 +70,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           <!-- Refined Salt -->
-          <div class="group bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-2xl overflow-hidden border border-navy-200 dark:border-navy-700 hover:shadow-2xl transition-all duration-500">
+          <div class="group bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl overflow-hidden border border-primary-200 dark:border-primary-700 hover:shadow-2xl transition-all duration-500">
             <div class="relative overflow-hidden">
               <img
                 src="/product-1.webp"
@@ -78,14 +78,14 @@
                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-navy-900/60 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-primary-900/60 to-transparent"></div>
               <div class="absolute top-4 right-4">
                 <UBadge color="primary" variant="solid" size="sm">Premium Quality</UBadge>
               </div>
             </div>
 
             <div class="p-6">
-              <h3 class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-3">
+              <h3 class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-3">
                 Refined Salt (Garam Murni)
               </h3>
               <p class="text-gray-700 dark:text-gray-300 font-body mb-4 text-sm leading-relaxed">
@@ -120,7 +120,7 @@
           </div>
 
           <!-- Washing Salt -->
-          <div class="group bg-linear-to-br from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-800/20 rounded-2xl overflow-hidden border border-teal-200 dark:border-teal-700 hover:shadow-2xl transition-all duration-500">
+          <div class="group bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-2xl overflow-hidden border border-secondary-200 dark:border-secondary-700 hover:shadow-2xl transition-all duration-500">
             <div class="relative overflow-hidden">
               <img
                 src="/product-2.avif"
@@ -128,14 +128,14 @@
                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-teal-900/60 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-secondary-900/60 to-transparent"></div>
               <div class="absolute top-4 right-4">
                 <UBadge color="secondary" variant="solid" size="sm">Industrial Grade</UBadge>
               </div>
             </div>
 
             <div class="p-6">
-              <h3 class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-3">
+              <h3 class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-3">
                 Washing Salt (Garam Cuci)
               </h3>
               <p class="text-gray-700 dark:text-gray-300 font-body mb-4 text-sm leading-relaxed">
@@ -169,7 +169,7 @@
           </div>
 
           <!-- Garam Konsumsi -->
-          <div class="group bg-linear-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 rounded-2xl overflow-hidden border border-green-200 dark:border-green-700 hover:shadow-2xl transition-all duration-500">
+          <div class="group bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl overflow-hidden border border-primary-200 dark:border-primary-700 hover:shadow-2xl transition-all duration-500">
             <div class="relative overflow-hidden">
               <img
                 src="/product-3.avif"
@@ -177,14 +177,14 @@
                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-green-900/60 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-primary-900/60 to-transparent"></div>
               <div class="absolute top-4 right-4">
                 <UBadge color="secondary" variant="solid" size="sm">Food Grade</UBadge>
               </div>
             </div>
 
             <div class="p-6">
-              <h3 class="text-xl font-bold text-green-700 dark:text-green-300 font-heading mb-3">
+              <h3 class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-3">
                 Garam Konsumsi
               </h3>
               <p class="text-gray-700 dark:text-gray-300 font-body mb-4 text-sm leading-relaxed">
@@ -218,7 +218,7 @@
           </div>
 
           <!-- Garam Industri Aneka Pangan (AP) -->
-          <div class="group bg-linear-to-br from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-800/20 rounded-2xl overflow-hidden border border-orange-200 dark:border-orange-700 hover:shadow-2xl transition-all duration-500">
+          <div class="group bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-2xl overflow-hidden border border-secondary-200 dark:border-secondary-700 hover:shadow-2xl transition-all duration-500">
             <div class="relative overflow-hidden">
               <img
                 src="/product-4.avif"
@@ -226,14 +226,14 @@
                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-orange-900/60 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-secondary-900/60 to-transparent"></div>
               <div class="absolute top-4 right-4">
-                <UBadge color="warning" variant="solid" size="sm">Industrial AP</UBadge>
+                <UBadge color="secondary" variant="solid" size="sm">Industrial AP</UBadge>
               </div>
             </div>
 
             <div class="p-6">
-              <h3 class="text-xl font-bold text-orange-700 dark:text-orange-300 font-heading mb-3">
+              <h3 class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-3">
                 Garam Industri Aneka Pangan (AP)
               </h3>
               <p class="text-gray-700 dark:text-gray-300 font-body mb-4 text-sm leading-relaxed">
@@ -259,15 +259,15 @@
               </div>
 
               <div class="flex flex-wrap gap-2 mb-4">
-                <UBadge color="warning" variant="soft" size="xs">≥97% NaCl</UBadge>
-                <UBadge color="warning" variant="soft" size="xs">Food Industry</UBadge>
-                <UBadge color="warning" variant="soft" size="xs">Low Ca/Mg</UBadge>
+                <UBadge color="secondary" variant="soft" size="xs">≥97% NaCl</UBadge>
+                <UBadge color="secondary" variant="soft" size="xs">Food Industry</UBadge>
+                <UBadge color="secondary" variant="soft" size="xs">Low Ca/Mg</UBadge>
               </div>
             </div>
           </div>
 
           <!-- Garam Industri Non Aneka Pangan (NAP) -->
-          <div class="group bg-linear-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 rounded-2xl overflow-hidden border border-purple-200 dark:border-purple-700 hover:shadow-2xl transition-all duration-500">
+          <div class="group bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl overflow-hidden border border-primary-200 dark:border-primary-700 hover:shadow-2xl transition-all duration-500">
             <div class="relative overflow-hidden">
               <img
                 src="/product-5.avif"
@@ -275,14 +275,14 @@
                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-purple-900/60 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-primary-900/60 to-transparent"></div>
               <div class="absolute top-4 right-4">
-                <UBadge color="info" variant="solid" size="sm">Industrial NAP</UBadge>
+                <UBadge color="primary" variant="solid" size="sm">Industrial NAP</UBadge>
               </div>
             </div>
 
             <div class="p-6">
-              <h3 class="text-xl font-bold text-purple-700 dark:text-purple-300 font-heading mb-3">
+              <h3 class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-3">
                 Garam Industri NAP
               </h3>
               <p class="text-gray-700 dark:text-gray-300 font-body mb-4 text-sm leading-relaxed">
@@ -308,15 +308,15 @@
               </div>
 
               <div class="flex flex-wrap gap-2 mb-4">
-                <UBadge color="info" variant="soft" size="xs">≥97% NaCl</UBadge>
-                <UBadge color="info" variant="soft" size="xs">Non-Food</UBadge>
-                <UBadge color="info" variant="soft" size="xs">Manufacturing</UBadge>
+                <UBadge color="primary" variant="soft" size="xs">≥97% NaCl</UBadge>
+                <UBadge color="primary" variant="soft" size="xs">Non-Food</UBadge>
+                <UBadge color="primary" variant="soft" size="xs">Manufacturing</UBadge>
               </div>
             </div>
           </div>
 
           <!-- Garam Pharmaceutical Grade -->
-          <div class="group bg-linear-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-2xl overflow-hidden border border-blue-200 dark:border-blue-700 hover:shadow-2xl transition-all duration-500">
+          <div class="group bg-linear-to-br from-secondary-50 to-secondary-100 dark:from-secondary-900/20 dark:to-secondary-800/20 rounded-2xl overflow-hidden border border-secondary-200 dark:border-secondary-700 hover:shadow-2xl transition-all duration-500">
             <div class="relative overflow-hidden">
               <img
                 src="/product-6.avif"
@@ -324,14 +324,14 @@
                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-blue-900/60 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-secondary-900/60 to-transparent"></div>
               <div class="absolute top-4 right-4">
                 <UBadge color="primary" variant="solid" size="sm">Pharma Grade</UBadge>
               </div>
             </div>
 
             <div class="p-6">
-              <h3 class="text-xl font-bold text-blue-700 dark:text-blue-300 font-heading mb-3">
+              <h3 class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-3">
                 Pharmaceutical Grade Salt
               </h3>
               <p class="text-gray-700 dark:text-gray-300 font-body mb-4 text-sm leading-relaxed">
@@ -368,11 +368,11 @@
     </section>
 
     <!-- Product Specifications Table -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-50 to-teal-50 dark:from-gray-900 dark:to-gray-800">
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-50 to-secondary-50 dark:from-gray-900 dark:to-gray-800">
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <h2
-            class="text-3xl lg:text-4xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-4"
+            class="text-3xl lg:text-4xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-4"
           >
             Spesifikasi Produk
           </h2>
@@ -386,7 +386,7 @@
         <div class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-xl border border-gray-200 dark:border-gray-700">
           <div class="overflow-x-auto">
             <table class="w-full">
-              <thead class="bg-navy-600 dark:bg-navy-700">
+              <thead class="bg-primary-600 dark:bg-primary-700">
                 <tr>
                   <th class="px-6 py-4 text-left text-sm font-bold text-white font-heading">Produk</th>
                   <th class="px-6 py-4 text-center text-sm font-bold text-white font-heading">NaCl Content</th>
@@ -398,10 +398,10 @@
               <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                   <td class="px-6 py-4">
-                    <div class="font-semibold text-navy-700 dark:text-navy-300 font-heading">Refined Salt</div>
+                    <div class="font-semibold text-primary-700 dark:text-primary-300 font-heading">Refined Salt</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400 font-body">Garam Murni</div>
                   </td>
-                  <td class="px-6 py-4 text-center text-navy-600 dark:text-navy-400 font-semibold">≥99.5%</td>
+                  <td class="px-6 py-4 text-center text-primary-600 dark:text-primary-400 font-semibold">≥99.5%</td>
                   <td class="px-6 py-4 text-center">
                     <UBadge color="primary" variant="soft" size="sm">Pharma Grade</UBadge>
                   </td>
@@ -415,10 +415,10 @@
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                   <td class="px-6 py-4">
-                    <div class="font-semibold text-teal-700 dark:text-teal-300 font-heading">Washing Salt</div>
+                    <div class="font-semibold text-secondary-700 dark:text-secondary-300 font-heading">Washing Salt</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400 font-body">Garam Cuci</div>
                   </td>
-                  <td class="px-6 py-4 text-center text-teal-600 dark:text-teal-400 font-semibold">≥97%</td>
+                  <td class="px-6 py-4 text-center text-secondary-600 dark:text-secondary-400 font-semibold">≥97%</td>
                   <td class="px-6 py-4 text-center">
                     <UBadge color="secondary" variant="soft" size="sm">Industrial</UBadge>
                   </td>
@@ -429,10 +429,10 @@
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                   <td class="px-6 py-4">
-                    <div class="font-semibold text-green-700 dark:text-green-300 font-heading">Garam Konsumsi</div>
+                    <div class="font-semibold text-primary-700 dark:text-primary-300 font-heading">Garam Konsumsi</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400 font-body">Consumption Salt</div>
                   </td>
-                  <td class="px-6 py-4 text-center text-green-600 dark:text-green-400 font-semibold">≥94%</td>
+                  <td class="px-6 py-4 text-center text-primary-600 dark:text-primary-400 font-semibold">≥94%</td>
                   <td class="px-6 py-4 text-center">
                     <UBadge color="secondary" variant="soft" size="sm">Food Grade</UBadge>
                   </td>
@@ -446,38 +446,38 @@
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                   <td class="px-6 py-4">
-                    <div class="font-semibold text-orange-700 dark:text-orange-300 font-heading">Industri AP</div>
+                    <div class="font-semibold text-secondary-700 dark:text-secondary-300 font-heading">Industri AP</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400 font-body">Aneka Pangan</div>
                   </td>
-                  <td class="px-6 py-4 text-center text-orange-600 dark:text-orange-400 font-semibold">≥97%</td>
+                  <td class="px-6 py-4 text-center text-secondary-600 dark:text-secondary-400 font-semibold">≥97%</td>
                   <td class="px-6 py-4 text-center">
-                    <UBadge color="warning" variant="soft" size="sm">Food Industrial</UBadge>
+                    <UBadge color="secondary" variant="soft" size="sm">Food Industrial</UBadge>
                   </td>
                   <td class="px-6 py-4 text-center text-sm text-gray-600 dark:text-gray-400 font-body">Mi Instan, Snack</td>
                   <td class="px-6 py-4 text-center">
-                    <UBadge color="warning" variant="soft" size="xs">FSSC 22000</UBadge>
+                    <UBadge color="secondary" variant="soft" size="xs">FSSC 22000</UBadge>
                   </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                   <td class="px-6 py-4">
-                    <div class="font-semibold text-purple-700 dark:text-purple-300 font-heading">Industri NAP</div>
+                    <div class="font-semibold text-primary-700 dark:text-primary-300 font-heading">Industri NAP</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400 font-body">Non Aneka Pangan</div>
                   </td>
-                  <td class="px-6 py-4 text-center text-purple-600 dark:text-purple-400 font-semibold">≥97%</td>
+                  <td class="px-6 py-4 text-center text-primary-600 dark:text-primary-400 font-semibold">≥97%</td>
                   <td class="px-6 py-4 text-center">
-                    <UBadge color="info" variant="soft" size="sm">Industrial</UBadge>
+                    <UBadge color="primary" variant="soft" size="sm">Industrial</UBadge>
                   </td>
                   <td class="px-6 py-4 text-center text-sm text-gray-600 dark:text-gray-400 font-body">Tekstil, Kimia</td>
                   <td class="px-6 py-4 text-center">
-                    <UBadge color="info" variant="soft" size="xs">ISO 9001</UBadge>
+                    <UBadge color="primary" variant="soft" size="xs">ISO 9001</UBadge>
                   </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                   <td class="px-6 py-4">
-                    <div class="font-semibold text-blue-700 dark:text-blue-300 font-heading">Pharmaceutical</div>
+                    <div class="font-semibold text-secondary-700 dark:text-secondary-300 font-heading">Pharmaceutical</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400 font-body">Pharma Grade</div>
                   </td>
-                  <td class="px-6 py-4 text-center text-blue-600 dark:text-blue-400 font-semibold">≥99.9%</td>
+                  <td class="px-6 py-4 text-center text-secondary-600 dark:text-secondary-400 font-semibold">≥99.9%</td>
                   <td class="px-6 py-4 text-center">
                     <UBadge color="primary" variant="soft" size="sm">USP Grade</UBadge>
                   </td>
@@ -500,7 +500,7 @@
     <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-800">
       <div class="max-w-4xl mx-auto text-center">
         <h2
-          class="text-3xl lg:text-4xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-6"
+          class="text-3xl lg:text-4xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-6"
         >
           Butuh Konsultasi Produk?
         </h2>
@@ -552,7 +552,7 @@
         <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="text-center">
             <div
-              class="w-12 h-12 bg-linear-to-br from-navy-500 to-teal-500 rounded-lg mx-auto flex items-center justify-center mb-3"
+              class="w-12 h-12 bg-linear-to-br from-primary-500 to-secondary-500 rounded-lg mx-auto flex items-center justify-center mb-3"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -573,12 +573,19 @@
             >
               Telepon
             </h4>
-            <p class="text-gray-600 dark:text-gray-400 font-body text-sm">+62 813-3031-0676</p>
+            <a 
+              href="https://wa.me/6281330310676?text=Halo%20Bahari%20Sentosa%20Abadi,%20saya%20ingin%20konsultasi%20tentang%20produk%20garam%20yang%20sesuai%20untuk%20kebutuhan%20industri%20saya"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-600 dark:text-gray-400 font-body text-sm hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+            >
+              +62 813-3031-0676
+            </a>
           </div>
 
           <div class="text-center">
             <div
-              class="w-12 h-12 bg-linear-to-br from-teal-500 to-navy-500 rounded-lg mx-auto flex items-center justify-center mb-3"
+              class="w-12 h-12 bg-linear-to-br from-secondary-500 to-primary-500 rounded-lg mx-auto flex items-center justify-center mb-3"
             >
               <svg
                 class="w-6 h-6 text-white"
@@ -599,12 +606,17 @@
             >
               Email
             </h4>
-            <p class="text-gray-600 dark:text-gray-400 font-body text-sm">baharisentosaa@gmail.com</p>
+            <a 
+              href="mailto:baharisentosaa@gmail.com?subject=Konsultasi%20Produk%20Garam&body=Halo%20Tim%20Bahari%20Sentosa%20Abadi,%0A%0ASaya%20ingin%20konsultasi%20tentang%20produk%20garam%20yang%20sesuai%20untuk%20kebutuhan%20industri%20saya.%0A%0ATerima%20kasih."
+              class="text-gray-600 dark:text-gray-400 font-body text-sm hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+            >
+              baharisentosaa@gmail.com
+            </a>
           </div>
 
           <div class="text-center">
             <div
-              class="w-12 h-12 bg-linear-to-br from-navy-500 to-teal-500 rounded-lg mx-auto flex items-center justify-center mb-3"
+              class="w-12 h-12 bg-linear-to-br from-primary-500 to-secondary-500 rounded-lg mx-auto flex items-center justify-center mb-3"
             >
               <svg
                 class="w-6 h-6 text-white"

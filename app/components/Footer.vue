@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <footer class="bg-navy-900 dark:bg-gray-900 text-white">
+  <footer class="bg-primary-900 dark:bg-gray-900 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <!-- Company Info -->
@@ -21,7 +21,7 @@
           <div class="space-y-3">
             <div class="flex items-center space-x-3">
               <svg
-                class="w-5 h-5 text-teal-400 shrink-0"
+                class="w-5 h-5 text-secondary-400 shrink-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -33,11 +33,18 @@
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              <span class="text-gray-300 font-body">+62 813-3031-0676</span>
+              <a 
+                href="https://wa.me/6281330310676?text=Halo%20Bahari%20Sentosa%20Abadi,%20saya%20ingin%20menghubungi%20Anda"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-300 font-body hover:text-secondary-400 transition-colors duration-300"
+              >
+                +62 813-3031-0676
+              </a>
             </div>
             <div class="flex items-center space-x-3">
               <svg
-                class="w-5 h-5 text-teal-400 shrink-0"
+                class="w-5 h-5 text-secondary-400 shrink-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -49,9 +56,12 @@
                   d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              <span class="text-gray-300 font-body"
-                >baharisentosaa@gmail.com</span
+              <a 
+                href="mailto:baharisentosaa@gmail.com?subject=Inquiry%20-%20Bahari%20Sentosa%20Abadi&body=Halo%20Tim%20Bahari%20Sentosa%20Abadi,%0A%0ASaya%20ingin%20mengetahui%20lebih%20lanjut%20tentang%20produk%20dan%20layanan%20Anda.%0A%0ATerima%20kasih."
+                class="text-gray-300 font-body hover:text-secondary-400 transition-colors duration-300"
               >
+                baharisentosaa@gmail.com
+              </a>
             </div>
           </div>
         </div>
@@ -64,31 +74,31 @@
           <nav class="space-y-3">
             <NuxtLink
               to="/"
-              class="block text-gray-300 hover:text-teal-400 font-body transition-colors duration-300"
+              class="block text-gray-300 hover:text-secondary-400 font-body transition-colors duration-300"
             >
               Beranda
             </NuxtLink>
             <NuxtLink
               to="/visimisi"
-              class="block text-gray-300 hover:text-teal-400 font-body transition-colors duration-300"
+              class="block text-gray-300 hover:text-secondary-400 font-body transition-colors duration-300"
             >
               Visi & Misi
             </NuxtLink>
             <NuxtLink
               to="/tentangkami"
-              class="block text-gray-300 hover:text-teal-400 font-body transition-colors duration-300"
+              class="block text-gray-300 hover:text-secondary-400 font-body transition-colors duration-300"
             >
               Tentang Kami
             </NuxtLink>
             <NuxtLink
               to="/produk"
-              class="block text-gray-300 hover:text-teal-400 font-body transition-colors duration-300"
+              class="block text-gray-300 hover:text-secondary-400 font-body transition-colors duration-300"
             >
               Produk
             </NuxtLink>
             <NuxtLink
               to="/artikel"
-              class="block text-gray-300 hover:text-teal-400 font-body transition-colors duration-300"
+              class="block text-gray-300 hover:text-secondary-400 font-body transition-colors duration-300"
             >
               Artikel
             </NuxtLink>
@@ -104,7 +114,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <!-- Office Location -->
             <div
-              class="bg-navy-800/50 dark:bg-gray-800/50 rounded-lg p-6 border border-navy-700 dark:border-gray-700"
+              class="bg-primary-800/50 dark:bg-gray-800/50 rounded-lg p-6 border border-primary-700 dark:border-gray-700"
             >
               <div class="flex items-start space-x-3 mb-3">
                 <svg
@@ -121,7 +131,7 @@
                   />
                 </svg>
                 <div>
-                  <h4 class="font-semibold text-teal-400 font-heading">
+                  <h4 class="font-semibold text-secondary-400 font-heading">
                     Kantor
                   </h4>
                   <p class="text-gray-300 font-body mt-1">
@@ -133,7 +143,7 @@
 
             <!-- Factory Location -->
             <div
-              class="bg-navy-800/50 dark:bg-gray-800/50 rounded-lg p-6 border border-navy-700 dark:border-gray-700"
+              class="bg-primary-800/50 dark:bg-gray-800/50 rounded-lg p-6 border border-primary-700 dark:border-gray-700"
             >
               <div class="flex items-start space-x-3 mb-3">
                 <svg
@@ -150,7 +160,7 @@
                   />
                 </svg>
                 <div>
-                  <h4 class="font-semibold text-teal-400 font-heading">
+                  <h4 class="font-semibold text-secondary-400 font-heading">
                     Pabrik
                   </h4>
                   <p class="text-gray-300 font-body mt-1">
@@ -168,31 +178,31 @@
             </h4>
             <div class="flex flex-wrap gap-3">
               <div
-                class="px-3 py-1 bg-teal-600/20 border border-teal-500/30 rounded-full"
+                class="px-3 py-1 bg-secondary-600/20 border border-secondary-500/30 rounded-full"
               >
-                <span class="text-teal-300 text-sm font-body">Halal MUI</span>
+                <span class="text-secondary-300 text-sm font-body">Halal MUI</span>
               </div>
               <div
-                class="px-3 py-1 bg-teal-600/20 border border-teal-500/30 rounded-full"
+                class="px-3 py-1 bg-secondary-600/20 border border-secondary-500/30 rounded-full"
               >
-                <span class="text-teal-300 text-sm font-body">ISO 9001</span>
+                <span class="text-secondary-300 text-sm font-body">ISO 9001</span>
               </div>
               <div
-                class="px-3 py-1 bg-teal-600/20 border border-teal-500/30 rounded-full"
+                class="px-3 py-1 bg-secondary-600/20 border border-secondary-500/30 rounded-full"
               >
-                <span class="text-teal-300 text-sm font-body">ISO 14000</span>
+                <span class="text-secondary-300 text-sm font-body">ISO 14000</span>
               </div>
               <div
-                class="px-3 py-1 bg-teal-600/20 border border-teal-500/30 rounded-full"
+                class="px-3 py-1 bg-secondary-600/20 border border-secondary-500/30 rounded-full"
               >
                 <span class="text-teal-300 text-sm font-body"
                   >FSSC ISO 22000</span
                 >
               </div>
               <div
-                class="px-3 py-1 bg-navy-600/20 border border-navy-500/30 rounded-full"
+                class="px-3 py-1 bg-primary-600/20 border border-primary-500/30 rounded-full"
               >
-                <span class="text-navy-300 text-sm font-body"
+                <span class="text-primary-300 text-sm font-body"
                   >PKP Terdaftar</span
                 >
               </div>
@@ -202,14 +212,14 @@
       </div>
 
       <!-- Bottom Section -->
-      <div class="border-t border-navy-700 dark:border-gray-700 mt-12 pt-8">
+      <div class="border-t border-primary-700 dark:border-gray-700 mt-12 pt-8">
         <div
           class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0"
         >
           <!-- Copyright -->
           <div class="text-center lg:text-left">
             <p class="text-gray-300 font-body">
-              © 2024 Bahari Sentosa Abadi. All rights reserved.
+              © 2019 Bahari Sentosa Abadi. All rights reserved.
             </p>
             <p class="text-gray-400 text-sm font-body mt-1">
               Distributor resmi PT. Unichem Candi Indonesia
@@ -222,7 +232,7 @@
           >
             <div class="flex items-center space-x-2">
               <svg
-                class="w-4 h-4 text-teal-400"
+                class="w-4 h-4 text-secondary-400"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -244,7 +254,7 @@
                 href="https://wa.me/6281330310676"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-gray-400 hover:text-teal-400 transition-colors duration-300"
+                class="text-gray-400 hover:text-secondary-400 transition-colors duration-300"
               >
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path
@@ -254,7 +264,7 @@
               </a>
               <a
                 href="mailto:baharisentosaa@gmail.com"
-                class="text-gray-400 hover:text-teal-400 transition-colors duration-300"
+                class="text-gray-400 hover:text-secondary-400 transition-colors duration-300"
               >
                 <svg
                   class="w-5 h-5"

@@ -1,2 +1,9 @@
 User-Agent: *
-Disallow:
+Allow: /
+
+# Allow indexing of all content
+Disallow: /api/
+Disallow: /_nuxt/
+
+# Sitemap location
+Sitemap: https://baharisentosaabadi.com/sitemap.xml

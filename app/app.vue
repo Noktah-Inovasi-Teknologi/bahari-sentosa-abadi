@@ -7,7 +7,7 @@
   <a 
     href="https://wa.me/6281330310676?text=Halo,%20saya%20tertarik%20dengan%20produk%20Anda"
     target="_blank"
-    class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50"
+    class="fixed bottom-6 right-6 bg-secondary-500 hover:bg-secondary-600 dark:bg-secondary-600 dark:hover:bg-secondary-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50"
     aria-label="Chat WhatsApp"
   >
     <svg

@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
     <!-- Hero Section -->
-    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-50 to-teal-50 dark:from-navy-900 dark:to-gray-800">
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-50 to-secondary-50 dark:from-primary-900 dark:to-gray-800">
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
           <!-- Company Logo -->
@@ -9,12 +9,12 @@
             <img src="/bsa-logo.avif" alt="Bahari Sentosa Abadi Logo" class="h-20 w-20 rounded-full object-cover" />
             <div class="h-16 w-px bg-gray-300 dark:bg-gray-600"></div>
             <div class="text-left">
-              <h1 class="text-3xl font-bold text-navy-600 dark:text-navy-400 font-heading">Bahari Sentosa Abadi</h1>
+              <h1 class="text-3xl font-bold text-primary-600 dark:text-primary-400 font-heading">Bahari Sentosa Abadi</h1>
               <p class="text-lg text-gray-600 dark:text-gray-400 font-body">Distributor Garam Terpercaya</p>
             </div>
           </div>
           
-          <h2 class="text-4xl lg:text-5xl font-bold text-navy-600 dark:text-navy-400 font-heading mb-6">
+          <h2 class="text-4xl lg:text-5xl font-bold text-primary-600 dark:text-primary-400 font-heading mb-6">
             Visi & Misi Perusahaan
           </h2>
           
@@ -33,7 +33,7 @@
           <!-- Left side - Content -->
           <div class="space-y-8">
             <div class="flex items-center space-x-4 mb-8">
-              <div class="w-16 h-16 bg-linear-to-br from-navy-600 to-navy-700 rounded-full flex items-center justify-center">
+              <div class="w-16 h-16 bg-linear-to-br from-primary-600 to-primary-700 rounded-full flex items-center justify-center">
                 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                     d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -41,13 +41,13 @@
                     d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
                 </svg>
               </div>
-              <h3 class="text-3xl lg:text-4xl font-bold text-navy-600 dark:text-navy-400 font-heading">
+              <h3 class="text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 font-heading">
                 Visi Kami
               </h3>
             </div>
             
-            <div class="bg-linear-to-br from-navy-50 to-navy-100 dark:from-navy-900/20 dark:to-navy-800/20 rounded-2xl p-8 border border-navy-200 dark:border-navy-700">
-              <blockquote class="text-2xl lg:text-3xl font-bold text-navy-700 dark:text-navy-300 font-heading leading-relaxed italic">
+            <div class="bg-linear-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl p-8 border border-primary-200 dark:border-primary-700">
+              <blockquote class="text-2xl lg:text-3xl font-bold text-primary-700 dark:text-primary-300 font-heading leading-relaxed italic">
                 "Menjadi distributor garam terkemuka di Indonesia yang terpercaya, berkelanjutan, dan memberikan nilai terbaik 
                 bagi pelanggan melalui produk berkualitas tinggi dan layanan profesional yang unggul."
               </blockquote>
@@ -55,25 +55,25 @@
             
             <!-- Visi Breakdown -->
             <div class="space-y-6">
-              <h4 class="text-xl font-semibold text-navy-600 dark:text-navy-400 font-heading mb-4">
+              <h4 class="text-xl font-semibold text-primary-600 dark:text-primary-400 font-heading mb-4">
                 Pencapaian Visi Kami:
               </h4>
               
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div class="flex items-center space-x-3">
-                  <div class="w-3 h-3 bg-navy-500 rounded-full shrink-0"></div>
+                  <div class="w-3 h-3 bg-primary-500 rounded-full shrink-0"></div>
                   <span class="text-gray-700 dark:text-gray-300 font-body">Distribusi ke seluruh Indonesia</span>
                 </div>
                 <div class="flex items-center space-x-3">
-                  <div class="w-3 h-3 bg-navy-500 rounded-full shrink-0"></div>
+                  <div class="w-3 h-3 bg-primary-500 rounded-full shrink-0"></div>
                   <span class="text-gray-700 dark:text-gray-300 font-body">Kualitas produk terjamin</span>
                 </div>
                 <div class="flex items-center space-x-3">
-                  <div class="w-3 h-3 bg-navy-500 rounded-full shrink-0"></div>
+                  <div class="w-3 h-3 bg-primary-500 rounded-full shrink-0"></div>
                   <span class="text-gray-700 dark:text-gray-300 font-body">Kepercayaan 70+ klien</span>
                 </div>
                 <div class="flex items-center space-x-3">
-                  <div class="w-3 h-3 bg-navy-500 rounded-full shrink-0"></div>
+                  <div class="w-3 h-3 bg-primary-500 rounded-full shrink-0"></div>
                   <span class="text-gray-700 dark:text-gray-300 font-body">Layanan profesional 24/7</span>
                 </div>
               </div>
@@ -89,18 +89,18 @@
                 class="w-full h-96 lg:h-[500px] object-cover"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-navy-900/40 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-primary-900/40 to-transparent"></div>
               
               <!-- Overlay Stats -->
               <div class="absolute bottom-6 left-6 right-6">
                 <div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl p-6">
                   <div class="grid grid-cols-2 gap-4 text-center">
                     <div>
-                      <div class="text-2xl font-bold text-navy-600 dark:text-navy-400 font-heading">5+</div>
+                      <div class="text-2xl font-bold text-primary-600 dark:text-primary-400 font-heading">5+</div>
                       <div class="text-sm text-gray-600 dark:text-gray-400 font-body">Tahun Pengalaman</div>
                     </div>
                     <div>
-                      <div class="text-2xl font-bold text-teal-600 dark:text-teal-400 font-heading">70+</div>
+                      <div class="text-2xl font-bold text-secondary-600 dark:text-secondary-400 font-heading">70+</div>
                       <div class="text-sm text-gray-600 dark:text-gray-400 font-body">Klien Terpercaya</div>
                     </div>
                   </div>
@@ -113,7 +113,7 @@
     </section>
 
     <!-- Misi Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-teal-50 to-navy-50 dark:from-gray-900 dark:to-gray-800">
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-secondary-50 to-primary-50 dark:from-gray-900 dark:to-gray-800">
       <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left side - Image -->
@@ -125,12 +125,12 @@
                 class="w-full h-96 lg:h-[500px] object-cover"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-teal-900/40 to-transparent"></div>
+              <div class="absolute inset-0 bg-linear-to-t from-secondary-900/40 to-transparent"></div>
               
               <!-- Certifications Overlay -->
               <div class="absolute bottom-6 left-6 right-6">
                 <div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl p-4">
-                  <h4 class="text-sm font-semibold text-teal-700 dark:text-teal-300 mb-2">Sertifikasi</h4>
+                  <h4 class="text-sm font-semibold text-secondary-700 dark:text-secondary-300 mb-2">Sertifikasi</h4>
                   <div class="flex flex-wrap gap-2">
                     <UBadge color="primary" variant="soft" size="sm">Halal MUI</UBadge>
                     <UBadge color="primary" variant="soft" size="sm">ISO 9001</UBadge>
@@ -144,13 +144,13 @@
           <!-- Right side - Content -->
           <div class="space-y-8 lg:order-2">
             <div class="flex items-center space-x-4 mb-8">
-              <div class="w-16 h-16 bg-linear-to-br from-teal-600 to-teal-700 rounded-full flex items-center justify-center">
+              <div class="w-16 h-16 bg-linear-to-br from-secondary-600 to-secondary-700 rounded-full flex items-center justify-center">
                 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                     d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
                 </svg>
               </div>
-              <h3 class="text-3xl lg:text-4xl font-bold text-teal-600 dark:text-teal-400 font-heading">
+              <h3 class="text-3xl lg:text-4xl font-bold text-secondary-600 dark:text-secondary-400 font-heading">
                 Misi Kami
               </h3>
             </div>
@@ -160,11 +160,11 @@
               <!-- Misi 1 -->
               <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 group hover:shadow-xl transition-shadow duration-300">
                 <div class="flex items-start space-x-4">
-                  <div class="shrink-0 w-10 h-10 bg-teal-600 rounded-full flex items-center justify-center">
+                  <div class="shrink-0 w-10 h-10 bg-secondary-600 rounded-full flex items-center justify-center">
                     <span class="text-white font-bold text-lg">1</span>
                   </div>
                   <div>
-                    <h4 class="text-xl font-semibold text-teal-700 dark:text-teal-300 font-heading mb-2">
+                    <h4 class="text-xl font-semibold text-secondary-700 dark:text-secondary-300 font-heading mb-2">
                       Mengutamakan Kualitas Produk
                     </h4>
                     <p class="text-gray-700 dark:text-gray-300 font-body leading-relaxed">
@@ -178,11 +178,11 @@
               <!-- Misi 2 -->
               <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 group hover:shadow-xl transition-shadow duration-300">
                 <div class="flex items-start space-x-4">
-                  <div class="shrink-0 w-10 h-10 bg-navy-600 rounded-full flex items-center justify-center">
+                  <div class="shrink-0 w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
                     <span class="text-white font-bold text-lg">2</span>
                   </div>
                   <div>
-                    <h4 class="text-xl font-semibold text-navy-700 dark:text-navy-300 font-heading mb-2">
+                    <h4 class="text-xl font-semibold text-primary-700 dark:text-primary-300 font-heading mb-2">
                       Memberikan Pelayanan Prima
                     </h4>
                     <p class="text-gray-700 dark:text-gray-300 font-body leading-relaxed">
@@ -196,11 +196,11 @@
               <!-- Misi 3 -->
               <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 group hover:shadow-xl transition-shadow duration-300">
                 <div class="flex items-start space-x-4">
-                  <div class="shrink-0 w-10 h-10 bg-teal-600 rounded-full flex items-center justify-center">
+                  <div class="shrink-0 w-10 h-10 bg-secondary-600 rounded-full flex items-center justify-center">
                     <span class="text-white font-bold text-lg">3</span>
                   </div>
                   <div>
-                    <h4 class="text-xl font-semibold text-teal-700 dark:text-teal-300 font-heading mb-2">
+                    <h4 class="text-xl font-semibold text-secondary-700 dark:text-secondary-300 font-heading mb-2">
                       Membangun Distribusi Nasional
                     </h4>
                     <p class="text-gray-700 dark:text-gray-300 font-body leading-relaxed">
@@ -214,11 +214,11 @@
               <!-- Misi 4 -->
               <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 group hover:shadow-xl transition-shadow duration-300">
                 <div class="flex items-start space-x-4">
-                  <div class="shrink-0 w-10 h-10 bg-navy-600 rounded-full flex items-center justify-center">
+                  <div class="shrink-0 w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
                     <span class="text-white font-bold text-lg">4</span>
                   </div>
                   <div>
-                    <h4 class="text-xl font-semibold text-navy-700 dark:text-navy-300 font-heading mb-2">
+                    <h4 class="text-xl font-semibold text-primary-700 dark:text-primary-300 font-heading mb-2">
                       Berkomitmen pada Keberlanjutan
                     </h4>
                     <p class="text-gray-700 dark:text-gray-300 font-body leading-relaxed">
@@ -238,7 +238,7 @@
     <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-800">
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-3xl lg:text-4xl font-bold text-navy-600 dark:text-navy-400 font-heading mb-4">
+          <h2 class="text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 font-heading mb-4">
             Nilai-Nilai Perusahaan
           </h2>
           <p class="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto font-body">
@@ -251,14 +251,14 @@
           <!-- Nilai 1 -->
           <div class="text-center group">
             <div class="relative mb-6">
-              <div class="w-20 h-20 bg-linear-to-br from-navy-500 to-navy-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <div class="w-20 h-20 bg-linear-to-br from-primary-500 to-primary-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-3">
+            <h3 class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-3">
               Integritas
             </h3>
             <p class="text-gray-600 dark:text-gray-400 font-body leading-relaxed">
@@ -269,14 +269,14 @@
           <!-- Nilai 2 -->
           <div class="text-center group">
             <div class="relative mb-6">
-              <div class="w-20 h-20 bg-linear-to-br from-teal-500 to-teal-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <div class="w-20 h-20 bg-linear-to-br from-secondary-500 to-secondary-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                     d="M13 10V3L4 14h7v7l9-11h-7z"/>
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-3">
+            <h3 class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-3">
               Inovasi
             </h3>
             <p class="text-gray-600 dark:text-gray-400 font-body leading-relaxed">
@@ -287,14 +287,14 @@
           <!-- Nilai 3 -->
           <div class="text-center group">
             <div class="relative mb-6">
-              <div class="w-20 h-20 bg-linear-to-br from-navy-500 to-navy-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <div class="w-20 h-20 bg-linear-to-br from-primary-500 to-primary-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                     d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-navy-700 dark:text-navy-300 font-heading mb-3">
+            <h3 class="text-xl font-bold text-primary-700 dark:text-primary-300 font-heading mb-3">
               Kolaborasi
             </h3>
             <p class="text-gray-600 dark:text-gray-400 font-body leading-relaxed">
@@ -305,14 +305,14 @@
           <!-- Nilai 4 -->
           <div class="text-center group">
             <div class="relative mb-6">
-              <div class="w-20 h-20 bg-linear-to-br from-teal-500 to-teal-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <div class="w-20 h-20 bg-linear-to-br from-secondary-500 to-secondary-600 rounded-full mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                     d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-teal-700 dark:text-teal-300 font-heading mb-3">
+            <h3 class="text-xl font-bold text-secondary-700 dark:text-secondary-300 font-heading mb-3">
               Keunggulan
             </h3>
             <p class="text-gray-600 dark:text-gray-400 font-body leading-relaxed">
@@ -324,13 +324,13 @@
     </section>
 
     <!-- Call to Action Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-navy-600 to-teal-600 dark:from-navy-800 dark:to-teal-800">
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary-600 to-secondary-600 dark:from-primary-800 dark:to-secondary-800">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl lg:text-4xl font-bold text-white font-heading mb-6">
           Bergabunglah dengan Misi Kami
         </h2>
         
-        <p class="text-xl text-navy-100 dark:text-navy-200 leading-relaxed font-body mb-8">
+        <p class="text-xl text-primary-100 dark:text-primary-200 leading-relaxed font-body mb-8">
           Mari bersama-sama mewujudkan visi menjadi distributor garam terpercaya di Indonesia. 
           Hubungi kami untuk memulai kemitraan yang menguntungkan.
         </p>

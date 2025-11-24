@@ -11,6 +11,8 @@ export default defineNuxtConfig({
     "@nuxthub/core",
     "@nuxt/icon",
     "@nuxt/fonts",
+    "@nuxtjs/sitemap",
+    "@nuxtjs/seo",
   ],
   fonts: {
     families: [
@@ -21,4 +23,27 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  // site: {
+  //   url: 'https://baharisentosaabadi.com',
+  //   name: 'PT Bahari Sentosa Abadi',
+  //   description: 'Leading salt manufacturer in Indonesia, providing high-quality salt products for industrial, food processing, and commercial applications.',
+  //   defaultLocale: 'id',
+  // },
+  // seo: {
+  //   fallbackTitle: false,
+  //   templateParams: {
+  //     siteName: 'PT Bahari Sentosa Abadi',
+  //   },
+  // },
+  // sitemap: {
+  //   hostname: 'https://baharisentosaabadi.com',
+  //   gzip: true,
+  //   routes: [
+  //     '/',
+  //     '/tentangkami',
+  //     '/visimisi', 
+  //     '/produk',
+  //     '/artikel',
+  //   ],
+  // },
 });
