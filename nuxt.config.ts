@@ -23,27 +23,18 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  // site: {
-  //   url: 'https://baharisentosaabadi.com',
-  //   name: 'PT Bahari Sentosa Abadi',
-  //   description: 'Leading salt manufacturer in Indonesia, providing high-quality salt products for industrial, food processing, and commercial applications.',
-  //   defaultLocale: 'id',
-  // },
-  // seo: {
-  //   fallbackTitle: false,
-  //   templateParams: {
-  //     siteName: 'PT Bahari Sentosa Abadi',
-  //   },
-  // },
-  // sitemap: {
-  //   hostname: 'https://baharisentosaabadi.com',
-  //   gzip: true,
-  //   routes: [
-  //     '/',
-  //     '/tentangkami',
-  //     '/visimisi', 
-  //     '/produk',
-  //     '/artikel',
-  //   ],
-  // },
+  site: {
+    url: 'https://baharisentosaabadi.co.id',
+    name: 'Bahari Sentosa Abadi',
+    description: 'Distributor resmi garam berkualitas tinggi dari PT Unichem Candi Indonesia. Melayani garam industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, FSSC 22000. Pengiriman ke seluruh Indonesia.',
+    defaultLocale: 'id',
+  },
+  seo: {
+    fallbackTitle: false,
+  },
+  sitemap: {
+    sources: [
+      '/sitemap.xml'
+    ]
+  },
 });

@@ -131,11 +131,105 @@ const formatDate = (dateString) => {
 
 // Dynamic meta tags
 useHead(() => ({
-  title: article.value ? `${article.value.title} - PT Bahari Sentosa Abadi` : 'Artikel - PT Bahari Sentosa Abadi',
+  title: article.value ? `${article.value.title} | Bahari Sentosa Abadi` : 'Artikel - Bahari Sentosa Abadi',
   meta: [
     {
       name: 'description',
-      content: article.value?.description || 'Artikel dari PT Bahari Sentosa Abadi'
+      content: article.value?.description || 'Artikel dari Bahari Sentosa Abadi tentang industri garam dan produk berkualitas tinggi'
+    },
+    {
+      name: 'keywords',
+      content: article.value?.tags ? article.value.tags.join(', ') : 'artikel garam, industri garam, Bahari Sentosa Abadi'
+    },
+    {
+      property: 'og:title',
+      content: article.value ? `${article.value.title} | Bahari Sentosa Abadi` : 'Artikel - Bahari Sentosa Abadi'
+    },
+    {
+      property: 'og:description',
+      content: article.value?.description || 'Artikel dari Bahari Sentosa Abadi tentang industri garam dan produk berkualitas tinggi'
+    },
+    {
+      property: 'og:image',
+      content: article.value?.image ? `https://baharisentosaabadi.co.id${article.value.image}` : 'https://baharisentosaabadi.co.id/bsa-logo.avif'
+    },
+    {
+      property: 'og:url',
+      content: `https://baharisentosaabadi.co.id/artikel/${slug}`
+    },
+    {
+      property: 'og:type',
+      content: 'article'
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image'
+    },
+    {
+      name: 'twitter:title',
+      content: article.value ? `${article.value.title} | Bahari Sentosa Abadi` : 'Artikel - Bahari Sentosa Abadi'
+    },
+    {
+      name: 'twitter:description',
+      content: article.value?.description || 'Artikel dari Bahari Sentosa Abadi tentang industri garam dan produk berkualitas tinggi'
+    },
+    {
+      name: 'twitter:image',
+      content: article.value?.image ? `https://baharisentosaabadi.co.id${article.value.image}` : 'https://baharisentosaabadi.co.id/bsa-logo.avif'
+    },
+    {
+      name: 'robots',
+      content: 'index, follow'
+    },
+    {
+      name: 'author',
+      content: article.value?.author || 'Bahari Sentosa Abadi'
+    },
+    {
+      property: 'article:published_time',
+      content: article.value?.date
+    },
+    {
+      property: 'article:author',
+      content: article.value?.author || 'Bahari Sentosa Abadi'
+    }
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: `https://baharisentosaabadi.co.id/artikel/${slug}`
+    }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": article.value?.title || '',
+        "description": article.value?.description || '',
+        "image": article.value?.image ? `https://baharisentosaabadi.co.id${article.value.image}` : 'https://baharisentosaabadi.co.id/bsa-logo.avif',
+        "author": {
+          "@type": "Organization",
+          "name": article.value?.author || "Bahari Sentosa Abadi",
+          "url": "https://baharisentosaabadi.co.id"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Bahari Sentosa Abadi",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://baharisentosaabadi.co.id/bsa-logo.avif"
+          }
+        },
+        "datePublished": article.value?.date || '',
+        "dateModified": article.value?.date || '',
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `https://baharisentosaabadi.co.id/artikel/${slug}`
+        },
+        "keywords": article.value?.tags ? article.value.tags.join(', ') : ''
+      })
     }
   ]
 }))

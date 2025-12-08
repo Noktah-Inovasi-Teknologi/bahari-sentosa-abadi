@@ -1,3 +1,65 @@
+<script setup>
+useHead({
+  title: 'Visi & Misi - Bahari Sentosa Abadi | Distributor Garam Terpercaya',
+  meta: [
+    {
+      name: 'description',
+      content: 'Pelajari visi dan misi Bahari Sentosa Abadi sebagai distributor garam terpercaya Indonesia. Komitmen kami untuk menyediakan produk garam berkualitas tinggi dan pelayanan terbaik bagi seluruh Indonesia.'
+    },
+    {
+      name: 'keywords',
+      content: 'visi misi Bahari Sentosa Abadi, distributor garam Indonesia, komitmen kualitas, pelayanan terbaik, garam berkualitas tinggi'
+    },
+    {
+      property: 'og:title',
+      content: 'Visi & Misi - Bahari Sentosa Abadi | Distributor Garam Terpercaya'
+    },
+    {
+      property: 'og:description',
+      content: 'Pelajari visi dan misi Bahari Sentosa Abadi sebagai distributor garam terpercaya Indonesia dengan komitmen kualitas dan pelayanan terbaik.'
+    },
+    {
+      property: 'og:image',
+      content: 'https://baharisentosaabadi.co.id/bsa-logo.avif'
+    },
+    {
+      property: 'og:url',
+      content: 'https://baharisentosaabadi.co.id/visimisi'
+    },
+    {
+      property: 'og:type',
+      content: 'website'
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image'
+    },
+    {
+      name: 'twitter:title',
+      content: 'Visi & Misi - Bahari Sentosa Abadi | Distributor Garam Terpercaya'
+    },
+    {
+      name: 'twitter:description',
+      content: 'Pelajari visi dan misi Bahari Sentosa Abadi sebagai distributor garam terpercaya Indonesia dengan komitmen kualitas dan pelayanan terbaik.'
+    },
+    {
+      name: 'twitter:image',
+      content: 'https://baharisentosaabadi.co.id/bsa-logo.avif'
+    },
+    {
+      name: 'robots',
+      content: 'index, follow'
+    }
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://baharisentosaabadi.co.id/visimisi'
+    }
+  ]
+})
+</script>
+
 <template>
   <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
     <!-- Hero Section -->

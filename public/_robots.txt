@@ -4,6 +4,7 @@ Allow: /
 # Allow indexing of all content
 Disallow: /api/
 Disallow: /_nuxt/
+Disallow: /admin/
 
 # Sitemap location
-Sitemap: https://baharisentosaabadi.com/sitemap.xml
+Sitemap: https://baharisentosaabadi.co.id/sitemap.xml

@@ -2,20 +2,20 @@
   <div>
     <Head>
       <Title
-        >PT Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia | Salt
+        >Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia | Salt
         Manufacturer</Title
       >
       <Meta
         name="description"
-        content="PT Bahari Sentosa Abadi adalah distributor resmi garam berkualitas tinggi dari PT Unichem Candi Indonesia. Melayani garam industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, FSSC 22000. Pengiriman ke seluruh Indonesia."
+        content="Bahari Sentosa Abadi adalah distributor resmi garam berkualitas tinggi dari PT Unichem Candi Indonesia. Melayani garam industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, FSSC 22000. Pengiriman ke seluruh Indonesia."
       />
       <Meta
         name="keywords"
-        content="garam industri, garam konsumsi, distributor garam, PT Bahari Sentosa Abadi, refined salt, washing salt, garam halal, garam bersertifikat, supplier garam Indonesia"
+        content="garam industri, garam konsumsi, distributor garam, Bahari Sentosa Abadi, refined salt, washing salt, garam halal, garam bersertifikat, supplier garam Indonesia"
       />
       <Meta
         property="og:title"
-        content="PT Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia"
+        content="Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia"
       />
       <Meta
         property="og:description"
@@ -23,14 +23,14 @@
       />
       <Meta
         property="og:image"
-        content="https://baharisentosaabadi.com/bsa-logo.avif"
+        content="https://baharisentosaabadi.co.id/bsa-logo.avif"
       />
-      <Meta property="og:url" content="https://baharisentosaabadi.com/" />
+      <Meta property="og:url" content="https://baharisentosaabadi.co.id/" />
       <Meta property="og:type" content="website" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta
         name="twitter:title"
-        content="PT Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia"
+        content="Bahari Sentosa Abadi - Distributor Garam Terpercaya Indonesia"
       />
       <Meta
         name="twitter:description"
@@ -38,11 +38,11 @@
       />
       <Meta
         name="twitter:image"
-        content="https://baharisentosaabadi.com/bsa-logo.avif"
+        content="https://baharisentosaabadi.co.id/bsa-logo.avif"
       />
       <Meta name="robots" content="index, follow" />
       <Meta name="viewport" content="width=device-width, initial-scale=1" />
-      <Link rel="canonical" href="https://baharisentosaabadi.com/" />
+      <Link rel="canonical" href="https://baharisentosaabadi.co.id/" />
     </Head>
     <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
       <!-- Company Section -->

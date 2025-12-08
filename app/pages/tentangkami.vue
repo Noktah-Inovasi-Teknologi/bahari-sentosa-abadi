@@ -1,11 +1,11 @@
 <script setup>
 // SEO Meta Tags
 useHead({
-  title: 'Tentang Kami - PT Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia',
+  title: 'Tentang Kami - Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia',
   meta: [
     {
       name: 'description',
-      content: 'PT Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, dan FSSC 22000.'
+      content: 'Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, dan FSSC 22000.'
     },
     {
       name: 'keywords',
@@ -13,7 +13,7 @@ useHead({
     },
     {
       name: 'author',
-      content: 'PT Bahari Sentosa Abadi'
+      content: 'Bahari Sentosa Abadi'
     },
     {
       name: 'robots',
@@ -22,11 +22,11 @@ useHead({
     // Open Graph Tags
     {
       property: 'og:title',
-      content: 'Tentang Kami - PT Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia'
+      content: 'Tentang Kami - Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia'
     },
     {
       property: 'og:description',
-      content: 'PT Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, dan FSSC 22000.'
+      content: 'Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi dengan sertifikasi Halal MUI, ISO 9001, dan FSSC 22000.'
     },
     {
       property: 'og:type',
@@ -34,15 +34,15 @@ useHead({
     },
     {
       property: 'og:url',
-      content: 'https://baharisentosaabadi.com/tentangkami'
+      content: 'https://baharisentosaabadi.co.id/tentangkami'
     },
     {
       property: 'og:image',
-      content: 'https://baharisentosaabadi.com/bsa-2.avif'
+      content: 'https://baharisentosaabadi.co.id/bsa-2.avif'
     },
     {
       property: 'og:site_name',
-      content: 'PT Bahari Sentosa Abadi'
+      content: 'Bahari Sentosa Abadi'
     },
     {
       property: 'og:locale',
@@ -55,15 +55,15 @@ useHead({
     },
     {
       name: 'twitter:title',
-      content: 'Tentang Kami - PT Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia'
+      content: 'Tentang Kami - Bahari Sentosa Abadi | Distributor Garam Terpercaya Indonesia'
     },
     {
       name: 'twitter:description',
-      content: 'PT Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi.'
+      content: 'Bahari Sentosa Abadi adalah distributor garam terkemuka di Indonesia sejak 2019. Menyediakan garam berkualitas tinggi untuk industri dan konsumsi.'
     },
     {
       name: 'twitter:image',
-      content: 'https://baharisentosaabadi.com/bsa-2.avif'
+      content: 'https://baharisentosaabadi.co.id/bsa-2.avif'
     },
     {
       name: 'twitter:site',
@@ -73,7 +73,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://baharisentosaabadi.com/tentangkami'
+      href: 'https://baharisentosaabadi.co.id/tentangkami'
     }
   ]
 })

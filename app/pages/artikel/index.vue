@@ -26,11 +26,11 @@ const formatDate = (dateString) => {
 
 // Meta tags
 useHead({
-  title: 'Artikel - PT Bahari Sentosa Abadi',
+  title: 'Artikel - Bahari Sentosa Abadi',
   meta: [
     {
       name: 'description',
-      content: 'Baca artikel terbaru tentang garam dan industri dari PT Bahari Sentosa Abadi'
+      content: 'Baca artikel terbaru tentang garam dan industri dari Bahari Sentosa Abadi'
     }
   ]
 })
@@ -45,7 +45,7 @@ useHead({
           Artikel & Insights
         </h1>
         <p class="text-xl text-gray-700 dark:text-gray-300 leading-relaxed font-body max-w-4xl mx-auto">
-          Baca artikel terbaru tentang industri garam, tips bisnis, dan insights dari PT Bahari Sentosa Abadi
+          Baca artikel terbaru tentang industri garam, tips bisnis, dan insights dari Bahari Sentosa Abadi
         </p>
       </div>
     </section>
