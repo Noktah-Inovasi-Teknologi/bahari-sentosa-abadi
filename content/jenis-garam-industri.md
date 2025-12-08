@@ -4,7 +4,7 @@ description: Panduan komprehensif tentang berbagai jenis garam industri, karakte
 date: 2025-11-02
 tags: [garam industri, jenis garam, aplikasi industri, pemilihan produk]
 author: Tim Teknis PT Bahari Sentosa Abadi
-image: /bsa-4.avif
+image: /article/article-3.png
 ---
 
 # Jenis-Jenis Garam Industri dan Aplikasinya: Panduan Lengkap untuk Pemilihan yang Tepat

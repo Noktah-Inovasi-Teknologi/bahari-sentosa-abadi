@@ -4,7 +4,7 @@ description: Eksplorasi mendalam perkembangan teknologi produksi garam dari meto
 date: 2025-11-16
 tags: [tambak garam, produksi tradisional, teknologi modern, evolusi industri, efisiensi produksi]
 author: Tim Riset dan Pengembangan PT Bahari Sentosa Abadi
-image: /bsa-4.avif
+image: /article/article-1.png
 ---
 
 # Tambak Garam Tradisional vs Modern: Evolusi Metode Produksi Garam di Indonesia

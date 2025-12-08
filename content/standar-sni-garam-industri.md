@@ -4,7 +4,7 @@ description: Panduan komprehensif tentang Standar Nasional Indonesia (SNI) untuk
 date: 2025-11-23
 tags: [SNI garam, standar industri, sertifikasi, regulasi, compliance, kualitas garam]
 author: Divisi Quality Assurance PT Bahari Sentosa Abadi
-image: /bsa-4.avif
+image: /article/article-2.jpeg
 ---
 
 # Standar SNI untuk Garam Industri: Panduan Lengkap Regulasi dan Sertifikasi di Indonesia

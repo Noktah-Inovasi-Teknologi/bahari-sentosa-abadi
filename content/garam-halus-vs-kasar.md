@@ -4,7 +4,7 @@ description: Panduan komprehensif perbedaan garam halus dan kasar, karakteristik
 date: 2025-11-09
 tags: [garam halus, garam kasar, ukuran kristal, aplikasi industri, karakteristik garam]
 author: Divisi Research & Development BSA
-image: /bsa-4.avif
+image: /article/article-4.png
 ---
 
 # Garam Halus vs Garam Kasar: Memahami Karakteristik dan Kegunaan Masing-Masing Jenis

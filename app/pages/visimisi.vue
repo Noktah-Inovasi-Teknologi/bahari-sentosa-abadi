@@ -84,7 +84,7 @@
           <div class="relative">
             <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700">
               <img
-                src="/bsa-1.avif"
+                src="/bsa-carousel-1.avif"
                 alt="Bahari Sentosa Abadi Vision - Leading Salt Distribution"
                 class="w-full h-96 lg:h-[500px] object-cover"
                 loading="lazy"
