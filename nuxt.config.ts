@@ -13,6 +13,13 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "@nuxtjs/seo",
   ],
+  nitro: {
+    preset: 'cloudflare-module',
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true,
+    }
+  },
   fonts: {
     families: [
       { name: 'Manrope', provider: 'google' },
