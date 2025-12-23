@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
     "@nuxt/ui",
-    "@nuxthub/core",
     "@nuxt/icon",
     "@nuxt/fonts",
     "@nuxtjs/sitemap",
